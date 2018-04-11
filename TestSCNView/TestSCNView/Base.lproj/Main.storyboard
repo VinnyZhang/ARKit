@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Cq-hX-rCD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Wdt-Xu-RcN">
+            <objects>
+                <navigationController id="6Cq-hX-rCD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gpf-Ay-TeE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5rG-KY-XPL" kind="relationship" relationship="rootViewController" id="Y0f-2n-W35"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I6w-5K-QGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1521" y="146"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="0Zz-vl-OQr">
+            <objects>
+                <viewController id="5rG-KY-XPL" customClass="MainViewController" customModule="TestSCNView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nsP-8k-HUw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktq-VN-9ud">
+                                <rect key="frame" x="50" y="79" width="288" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="uQ5-8s-hQ9"/>
+                                </constraints>
+                                <state key="normal" title="SCNView &amp; 3D立方体"/>
+                                <connections>
+                                    <action selector="goSCNView:" destination="5rG-KY-XPL" eventType="touchUpInside" id="C4g-iu-1Ip"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cr-1p-JP0">
+                                <rect key="frame" x="26" y="154" width="98" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="NTc-Js-vO5"/>
+                                    <constraint firstAttribute="height" constant="139" id="e2E-uL-tWG"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="jingjing.JPG"/>
+                                <connections>
+                                    <action selector="gotoArtPic:" destination="5rG-KY-XPL" eventType="touchUpInside" id="T7b-fO-JRO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8N-D9-aRy">
+                                <rect key="frame" x="185" y="154" width="174" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="DLR-Oc-IBX"/>
+                                    <constraint firstAttribute="height" constant="35" id="T4u-E3-fWN"/>
+                                </constraints>
+                                <state key="normal" title="平面检测"/>
+                                <connections>
+                                    <action selector="goDetectionPlane:" destination="5rG-KY-XPL" eventType="touchUpInside" id="pgT-cN-sjK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="50N-UH-gPN" firstAttribute="trailing" secondItem="ktq-VN-9ud" secondAttribute="trailing" constant="37" id="2CS-ef-I5a"/>
+                            <constraint firstItem="ktq-VN-9ud" firstAttribute="leading" secondItem="50N-UH-gPN" secondAttribute="leading" constant="50" id="JVF-JU-bRA"/>
+                            <constraint firstItem="K8N-D9-aRy" firstAttribute="top" secondItem="ktq-VN-9ud" secondAttribute="bottom" constant="33" id="hIt-8B-R0P"/>
+                            <constraint firstItem="ktq-VN-9ud" firstAttribute="top" secondItem="50N-UH-gPN" secondAttribute="top" constant="15" id="m2y-fm-eM8"/>
+                            <constraint firstItem="9cr-1p-JP0" firstAttribute="top" secondItem="ktq-VN-9ud" secondAttribute="bottom" constant="33" id="mv6-Ys-tUM"/>
+                            <constraint firstItem="50N-UH-gPN" firstAttribute="trailing" secondItem="K8N-D9-aRy" secondAttribute="trailing" constant="16" id="uqe-xH-V1t"/>
+                            <constraint firstItem="9cr-1p-JP0" firstAttribute="leading" secondItem="50N-UH-gPN" secondAttribute="leading" constant="26" id="vFq-KK-MDd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="50N-UH-gPN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="clh-cD-fjg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqi-Pg-XTe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-687.20000000000005" y="144.3778110944528"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jingjing.JPG" width="720" height="1280"/>
+    </resources>
+</document>
