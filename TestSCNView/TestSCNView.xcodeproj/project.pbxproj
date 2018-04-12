@@ -23,6 +23,9 @@
 		5F9D2CCD2079A6BE00A5B813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D2CCB2079A6BE00A5B813 /* LaunchScreen.storyboard */; };
 		5F9D2CD82079A6BE00A5B813 /* TestSCNViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2CD72079A6BE00A5B813 /* TestSCNViewTests.swift */; };
 		5F9D2CE32079A6BE00A5B813 /* TestSCNViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2CE22079A6BE00A5B813 /* TestSCNViewUITests.swift */; };
+		5FFE05FC207EF9F0004E7D0D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE05FB207EF9F0004E7D0D /* Plane.swift */; };
+		5FFE05FF207F1199004E7D0D /* horizontal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE05FD207F1198004E7D0D /* horizontal.jpg */; };
+		5FFE0600207F1199004E7D0D /* vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE05FE207F1198004E7D0D /* vertical.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		5F9D2CDE2079A6BE00A5B813 /* TestSCNViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSCNViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D2CE22079A6BE00A5B813 /* TestSCNViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSCNViewUITests.swift; sourceTree = "<group>"; };
 		5F9D2CE42079A6BE00A5B813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFE05FB207EF9F0004E7D0D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		5FFE05FD207F1198004E7D0D /* horizontal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horizontal.jpg; sourceTree = "<group>"; };
+		5FFE05FE207F1198004E7D0D /* vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,8 @@
 		5F9D2CBF2079A6BC00A5B813 /* TestSCNView */ = {
 			isa = PBXGroup;
 			children = (
+				5FFE05FD207F1198004E7D0D /* horizontal.jpg */,
+				5FFE05FE207F1198004E7D0D /* vertical.png */,
 				5F2A4126207C96DE0014B3B7 /* jingjing.JPG */,
 				5F9D2CC02079A6BC00A5B813 /* AppDelegate.swift */,
 				5F2A411E207C71AF0014B3B7 /* sun-halo.png */,
@@ -130,6 +138,7 @@
 				5F2A411A207C62130014B3B7 /* SCNViewController.swift */,
 				5F2A4124207C74750014B3B7 /* ArtTreeViewController.swift */,
 				5F2A412A207CB5830014B3B7 /* DetectionPlaneViewController.swift */,
+				5FFE05FB207EF9F0004E7D0D /* Plane.swift */,
 			);
 			path = TestSCNView;
 			sourceTree = "<group>";
@@ -262,7 +271,9 @@
 				5F2A4127207C96DE0014B3B7 /* jingjing.JPG in Resources */,
 				5F2A4123207C71AF0014B3B7 /* timgKuang.jpg in Resources */,
 				5F9D2CCA2079A6BE00A5B813 /* Assets.xcassets in Resources */,
+				5FFE0600207F1199004E7D0D /* vertical.png in Resources */,
 				5F2A4121207C71AF0014B3B7 /* timg2kuang.jpg in Resources */,
+				5FFE05FF207F1199004E7D0D /* horizontal.jpg in Resources */,
 				5F2A4122207C71AF0014B3B7 /* sun-halo.png in Resources */,
 				5F9D2CC82079A6BC00A5B813 /* Main.storyboard in Resources */,
 			);
@@ -293,6 +304,7 @@
 				5F2A4119207B67130014B3B7 /* MainViewController.swift in Sources */,
 				5F2A412B207CB5830014B3B7 /* DetectionPlaneViewController.swift in Sources */,
 				5F2A411B207C62130014B3B7 /* SCNViewController.swift in Sources */,
+				5FFE05FC207EF9F0004E7D0D /* Plane.swift in Sources */,
 				5F9D2CC12079A6BC00A5B813 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,7 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JYRL84HER3;
 				INFOPLIST_FILE = TestSCNView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JYRL84HER3;
 				INFOPLIST_FILE = TestSCNView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
