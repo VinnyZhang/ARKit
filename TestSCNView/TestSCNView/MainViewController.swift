@@ -46,5 +46,10 @@ class MainViewController: UIViewController {
         let detectionPlaneViewController = DetectionPlaneViewController()
         self.navigationController?.pushViewController(detectionPlaneViewController, animated: true)
     }
+    
+    @IBAction func gotoPlaneBox (_ sender: Any) {
+        let boxController = SCNBoxViewController()
+        self.navigationController?.pushViewController(boxController, animated: true)
+    }
 
 }

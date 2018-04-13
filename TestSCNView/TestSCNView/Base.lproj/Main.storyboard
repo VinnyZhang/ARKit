@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -65,6 +66,17 @@
                                     <action selector="goDetectionPlane:" destination="5rG-KY-XPL" eventType="touchUpInside" id="pgT-cN-sjK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGp-kY-XH5">
+                                <rect key="frame" x="145" y="243" width="212" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kQt-EG-5e3"/>
+                                    <constraint firstAttribute="width" constant="212" id="tS7-lA-o8H"/>
+                                </constraints>
+                                <state key="normal" title="放置几何体并应用物理学"/>
+                                <connections>
+                                    <action selector="gotoPlaneBox:" destination="5rG-KY-XPL" eventType="touchUpInside" id="hyi-ec-igD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -73,6 +85,8 @@
                             <constraint firstItem="K8N-D9-aRy" firstAttribute="top" secondItem="ktq-VN-9ud" secondAttribute="bottom" constant="33" id="hIt-8B-R0P"/>
                             <constraint firstItem="ktq-VN-9ud" firstAttribute="top" secondItem="50N-UH-gPN" secondAttribute="top" constant="15" id="m2y-fm-eM8"/>
                             <constraint firstItem="9cr-1p-JP0" firstAttribute="top" secondItem="ktq-VN-9ud" secondAttribute="bottom" constant="33" id="mv6-Ys-tUM"/>
+                            <constraint firstItem="50N-UH-gPN" firstAttribute="trailing" secondItem="tGp-kY-XH5" secondAttribute="trailing" constant="18" id="n83-IY-gbR"/>
+                            <constraint firstItem="tGp-kY-XH5" firstAttribute="top" secondItem="K8N-D9-aRy" secondAttribute="bottom" constant="54" id="trq-3T-8ya"/>
                             <constraint firstItem="50N-UH-gPN" firstAttribute="trailing" secondItem="K8N-D9-aRy" secondAttribute="trailing" constant="16" id="uqe-xH-V1t"/>
                             <constraint firstItem="9cr-1p-JP0" firstAttribute="leading" secondItem="50N-UH-gPN" secondAttribute="leading" constant="26" id="vFq-KK-MDd"/>
                         </constraints>
