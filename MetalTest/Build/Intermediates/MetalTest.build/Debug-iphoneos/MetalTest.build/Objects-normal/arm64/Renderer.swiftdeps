@@ -1,0 +1,1156 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RenderDestinationProvider"
+- "kMaxBuffersInFlight"
+- "kMaxAnchorInstanceCount"
+- "kAlignedSharedUniformsSize"
+- "kAlignedInstanceUniformsSize"
+- "kImagePlaneVertexData"
+- "Renderer"
+provides-nominal:
+- "9MetalTest25RenderDestinationProviderP"
+- "9MetalTest8RendererC"
+provides-member:
+- ["9MetalTest25RenderDestinationProviderP", ""]
+- ["9MetalTest8RendererC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- "&"
+- "*"
+- "+"
+- !private "-"
+- !private "..."
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private ">"
+- "ARFrame"
+- "ARSession"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CAMetalDrawable"
+- !private "CGFloat"
+- !private "CGPoint"
+- "CGSize"
+- "CVMetalTexture"
+- "CVMetalTextureCache"
+- !private "CVMetalTextureCacheCreate"
+- !private "CVMetalTextureCacheCreateTextureFromImage"
+- !private "CVMetalTextureGetTexture"
+- "CVPixelBuffer"
+- !private "CVPixelBufferGetHeightOfPlane"
+- !private "CVPixelBufferGetPlaneCount"
+- !private "CVPixelBufferGetWidthOfPlane"
+- "CastingPrecedence"
+- "DispatchSemaphore"
+- !private "DispatchTime"
+- "Float"
+- "InstanceUniforms"
+- "Int"
+- !private "MDLMesh"
+- !private "MDLVertexAttribute"
+- !private "MDLVertexAttributeNormal"
+- !private "MDLVertexAttributePosition"
+- !private "MDLVertexAttributeTextureCoordinate"
+- "MTKMesh"
+- !private "MTKMeshBufferAllocator"
+- !private "MTKModelIOVertexDescriptorFromMetal"
+- "MTLBuffer"
+- "MTLCommandQueue"
+- !private "MTLDepthStencilDescriptor"
+- "MTLDepthStencilState"
+- "MTLDevice"
+- "MTLPixelFormat"
+- "MTLRenderCommandEncoder"
+- "MTLRenderPassDescriptor"
+- !private "MTLRenderPipelineDescriptor"
+- "MTLRenderPipelineState"
+- "MTLVertexDescriptor"
+- "MemoryLayout"
+- "RenderDestinationProvider"
+- "Renderer"
+- "SharedUniforms"
+- !private "StringLiteralType"
+- "UnsafeMutableRawPointer"
+- "kAlignedInstanceUniformsSize"
+- "kAlignedSharedUniformsSize"
+- !private "kBufferIndexInstanceUniforms"
+- !private "kBufferIndexMeshGenerics"
+- !private "kBufferIndexMeshPositions"
+- !private "kBufferIndexSharedUniforms"
+- !private "kCVReturnSuccess"
+- "kImagePlaneVertexData"
+- "kMaxAnchorInstanceCount"
+- "kMaxBuffersInFlight"
+- !private "kTextureIndexCbCr"
+- !private "kTextureIndexY"
+- !private "kVertexAttributeNormal"
+- !private "kVertexAttributePosition"
+- !private "kVertexAttributeTexcoord"
+- !private "matrix_identity_float4x4"
+- !private "max"
+- !private "min"
+- !private "print"
+- !private "simd_mul"
+- !private "simd_normalize"
+- !private "vector3"
+- !private "vector_float3"
+- "~"
+depends-member:
+- !private ["So8ARAnchorC", "transform"]
+- !private ["So8ARCameraC", "projectionMatrix"]
+- !private ["So8ARCameraC", "viewMatrix"]
+- !private ["So7ARFrameC", "anchors"]
+- !private ["So7ARFrameC", "camera"]
+- !private ["So7ARFrameC", "capturedImage"]
+- !private ["So7ARFrameC", "displayTransform"]
+- !private ["So7ARFrameC", "lightEstimate"]
+- !private ["So15ARLightEstimateC", "ambientIntensity"]
+- !private ["So9ARSessionC", "currentFrame"]
+- !private ["Sa", "count"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "removeAll"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC13BufferIndicesV", "rawValue"]
+- !private ["SC17CGAffineTransformV", "inverted"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC7CGPointV", "applying"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC7CGPointV", "y"]
+- ["SC6CGSizeV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "ambientIntensity"]
+- !private ["s7CVarArgP", "anchors"]
+- !private ["s7CVarArgP", "attributes"]
+- !private ["s7CVarArgP", "buffer"]
+- !private ["s7CVarArgP", "bufferIndex"]
+- !private ["s7CVarArgP", "camera"]
+- !private ["s7CVarArgP", "capturedImage"]
+- !private ["s7CVarArgP", "colorAttachments"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentFrame"]
+- !private ["s7CVarArgP", "depthAttachmentPixelFormat"]
+- !private ["s7CVarArgP", "depthCompareFunction"]
+- !private ["s7CVarArgP", "displayTransform"]
+- !private ["s7CVarArgP", "format"]
+- !private ["s7CVarArgP", "fragmentFunction"]
+- !private ["s7CVarArgP", "indexBuffer"]
+- !private ["s7CVarArgP", "indexCount"]
+- !private ["s7CVarArgP", "indexType"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isDepthWriteEnabled"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "layouts"]
+- !private ["s7CVarArgP", "lightEstimate"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "offset"]
+- !private ["s7CVarArgP", "pixelFormat"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "primitiveType"]
+- !private ["s7CVarArgP", "projectionMatrix"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "sampleCount"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "stencilAttachmentPixelFormat"]
+- !private ["s7CVarArgP", "stepFunction"]
+- !private ["s7CVarArgP", "stepRate"]
+- !private ["s7CVarArgP", "stride"]
+- !private ["s7CVarArgP", "submeshes"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "vertexBuffers"]
+- !private ["s7CVarArgP", "vertexDescriptor"]
+- !private ["s7CVarArgP", "vertexFunction"]
+- !private ["s7CVarArgP", "viewMatrix"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeAll"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "z"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "distantFuture"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "ambientIntensity"]
+- !private ["s28CustomDebugStringConvertibleP", "anchors"]
+- !private ["s28CustomDebugStringConvertibleP", "applying"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "attributes"]
+- !private ["s28CustomDebugStringConvertibleP", "buffer"]
+- !private ["s28CustomDebugStringConvertibleP", "bufferIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "camera"]
+- !private ["s28CustomDebugStringConvertibleP", "capturedImage"]
+- !private ["s28CustomDebugStringConvertibleP", "colorAttachments"]
+- !private ["s28CustomDebugStringConvertibleP", "columns"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "depthAttachmentPixelFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "depthCompareFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "displayTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "format"]
+- !private ["s28CustomDebugStringConvertibleP", "fragmentFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "indexBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "indexCount"]
+- !private ["s28CustomDebugStringConvertibleP", "indexType"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isDepthWriteEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "layouts"]
+- !private ["s28CustomDebugStringConvertibleP", "lightEstimate"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "offset"]
+- !private ["s28CustomDebugStringConvertibleP", "pixelFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "primitiveType"]
+- !private ["s28CustomDebugStringConvertibleP", "projectionMatrix"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "sampleCount"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "stencilAttachmentPixelFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "stepFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "stepRate"]
+- !private ["s28CustomDebugStringConvertibleP", "stride"]
+- !private ["s28CustomDebugStringConvertibleP", "submeshes"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "vertexBuffers"]
+- !private ["s28CustomDebugStringConvertibleP", "vertexDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "vertexFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "viewMatrix"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "z"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "applying"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "applying"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "ambientIntensity"]
+- !private ["s23CustomStringConvertibleP", "anchors"]
+- !private ["s23CustomStringConvertibleP", "attributes"]
+- !private ["s23CustomStringConvertibleP", "buffer"]
+- !private ["s23CustomStringConvertibleP", "bufferIndex"]
+- !private ["s23CustomStringConvertibleP", "camera"]
+- !private ["s23CustomStringConvertibleP", "capturedImage"]
+- !private ["s23CustomStringConvertibleP", "colorAttachments"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentFrame"]
+- !private ["s23CustomStringConvertibleP", "depthAttachmentPixelFormat"]
+- !private ["s23CustomStringConvertibleP", "depthCompareFunction"]
+- !private ["s23CustomStringConvertibleP", "displayTransform"]
+- !private ["s23CustomStringConvertibleP", "format"]
+- !private ["s23CustomStringConvertibleP", "fragmentFunction"]
+- !private ["s23CustomStringConvertibleP", "indexBuffer"]
+- !private ["s23CustomStringConvertibleP", "indexCount"]
+- !private ["s23CustomStringConvertibleP", "indexType"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isDepthWriteEnabled"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "layouts"]
+- !private ["s23CustomStringConvertibleP", "lightEstimate"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "offset"]
+- !private ["s23CustomStringConvertibleP", "pixelFormat"]
+- !private ["s23CustomStringConvertibleP", "primitiveType"]
+- !private ["s23CustomStringConvertibleP", "projectionMatrix"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "sampleCount"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "stencilAttachmentPixelFormat"]
+- !private ["s23CustomStringConvertibleP", "stepFunction"]
+- !private ["s23CustomStringConvertibleP", "stepRate"]
+- !private ["s23CustomStringConvertibleP", "stride"]
+- !private ["s23CustomStringConvertibleP", "submeshes"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "vertexBuffers"]
+- !private ["s23CustomStringConvertibleP", "vertexDescriptor"]
+- !private ["s23CustomStringConvertibleP", "vertexFunction"]
+- !private ["s23CustomStringConvertibleP", "viewMatrix"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "applying"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "inverted"]
+- !private ["s9DecodableP", "removeAll"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9DecodableP", "y"]
+- ["So14DispatchObjectC", "init"]
+- !private ["So14DispatchObjectC", "signal"]
+- !private ["So14DispatchObjectC", "wait"]
+- ["So17DispatchSemaphoreC", "init"]
+- !private ["So17DispatchSemaphoreC", "signal"]
+- !private ["So17DispatchSemaphoreC", "wait"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "applying"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "inverted"]
+- !private ["s9EncodableP", "removeAll"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EncodableP", "y"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "advanced"]
+- !private ["s9EquatableP", "always"]
+- !private ["s9EquatableP", "ambientIntensity"]
+- !private ["s9EquatableP", "anchors"]
+- !private ["s9EquatableP", "applying"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- !private ["s9EquatableP", "attributes"]
+- !private ["s9EquatableP", "back"]
+- !private ["s9EquatableP", "bgra8Unorm"]
+- !private ["s9EquatableP", "buffer"]
+- !private ["s9EquatableP", "bufferIndex"]
+- !private ["s9EquatableP", "camera"]
+- !private ["s9EquatableP", "capturedImage"]
+- !private ["s9EquatableP", "colorAttachments"]
+- !private ["s9EquatableP", "columns"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "currentFrame"]
+- !private ["s9EquatableP", "depth32Float_stencil8"]
+- !private ["s9EquatableP", "depthAttachmentPixelFormat"]
+- !private ["s9EquatableP", "depthCompareFunction"]
+- !private ["s9EquatableP", "displayTransform"]
+- !private ["s9EquatableP", "distantFuture"]
+- !private ["s9EquatableP", "float2"]
+- !private ["s9EquatableP", "float3"]
+- !private ["s9EquatableP", "format"]
+- !private ["s9EquatableP", "fragmentFunction"]
+- !private ["s9EquatableP", "half3"]
+- !private ["s9EquatableP", "indexBuffer"]
+- !private ["s9EquatableP", "indexCount"]
+- !private ["s9EquatableP", "indexType"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "inverted"]
+- !private ["s9EquatableP", "isDepthWriteEnabled"]
+- !private ["s9EquatableP", "label"]
+- !private ["s9EquatableP", "landscapeRight"]
+- !private ["s9EquatableP", "layouts"]
+- !private ["s9EquatableP", "less"]
+- !private ["s9EquatableP", "lightEstimate"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "offset"]
+- !private ["s9EquatableP", "perVertex"]
+- !private ["s9EquatableP", "pixelFormat"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "primitiveType"]
+- !private ["s9EquatableP", "projectionMatrix"]
+- !private ["s9EquatableP", "r8Unorm"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "removeAll"]
+- !private ["s9EquatableP", "rg8Unorm"]
+- !private ["s9EquatableP", "sampleCount"]
+- !private ["s9EquatableP", "signal"]
+- !private ["s9EquatableP", "stencilAttachmentPixelFormat"]
+- !private ["s9EquatableP", "stepFunction"]
+- !private ["s9EquatableP", "stepRate"]
+- !private ["s9EquatableP", "storageModeShared"]
+- !private ["s9EquatableP", "stride"]
+- !private ["s9EquatableP", "submeshes"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "transform"]
+- !private ["s9EquatableP", "triangleStrip"]
+- !private ["s9EquatableP", "triangles"]
+- !private ["s9EquatableP", "vertexBuffers"]
+- !private ["s9EquatableP", "vertexDescriptor"]
+- !private ["s9EquatableP", "vertexFunction"]
+- !private ["s9EquatableP", "viewMatrix"]
+- !private ["s9EquatableP", "wait"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- !private ["s9EquatableP", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "storageModeShared"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "z"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- !private ["s8HashableP", "always"]
+- !private ["s8HashableP", "ambientIntensity"]
+- !private ["s8HashableP", "anchors"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- !private ["s8HashableP", "attributes"]
+- !private ["s8HashableP", "back"]
+- !private ["s8HashableP", "bgra8Unorm"]
+- !private ["s8HashableP", "buffer"]
+- !private ["s8HashableP", "bufferIndex"]
+- !private ["s8HashableP", "camera"]
+- !private ["s8HashableP", "capturedImage"]
+- !private ["s8HashableP", "colorAttachments"]
+- !private ["s8HashableP", "currentFrame"]
+- !private ["s8HashableP", "depth32Float_stencil8"]
+- !private ["s8HashableP", "depthAttachmentPixelFormat"]
+- !private ["s8HashableP", "depthCompareFunction"]
+- !private ["s8HashableP", "displayTransform"]
+- !private ["s8HashableP", "float2"]
+- !private ["s8HashableP", "float3"]
+- !private ["s8HashableP", "format"]
+- !private ["s8HashableP", "fragmentFunction"]
+- !private ["s8HashableP", "half3"]
+- !private ["s8HashableP", "indexBuffer"]
+- !private ["s8HashableP", "indexCount"]
+- !private ["s8HashableP", "indexType"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isDepthWriteEnabled"]
+- !private ["s8HashableP", "label"]
+- !private ["s8HashableP", "landscapeRight"]
+- !private ["s8HashableP", "layouts"]
+- !private ["s8HashableP", "less"]
+- !private ["s8HashableP", "lightEstimate"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "none"]
+- !private ["s8HashableP", "offset"]
+- !private ["s8HashableP", "perVertex"]
+- !private ["s8HashableP", "pixelFormat"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "primitiveType"]
+- !private ["s8HashableP", "projectionMatrix"]
+- !private ["s8HashableP", "r8Unorm"]
+- !private ["s8HashableP", "rg8Unorm"]
+- !private ["s8HashableP", "sampleCount"]
+- !private ["s8HashableP", "signal"]
+- !private ["s8HashableP", "stencilAttachmentPixelFormat"]
+- !private ["s8HashableP", "stepFunction"]
+- !private ["s8HashableP", "stepRate"]
+- !private ["s8HashableP", "stride"]
+- !private ["s8HashableP", "submeshes"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "transform"]
+- !private ["s8HashableP", "triangleStrip"]
+- !private ["s8HashableP", "triangles"]
+- !private ["s8HashableP", "vertexBuffers"]
+- !private ["s8HashableP", "vertexDescriptor"]
+- !private ["s8HashableP", "vertexFunction"]
+- !private ["s8HashableP", "viewMatrix"]
+- !private ["s8HashableP", "wait"]
+- !private ["SC16InstanceUniformsV", "modelMatrix"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SC15MDLGeometryTypeO", "triangles"]
+- !private ["So7MDLMeshC", "init"]
+- !private ["So7MDLMeshC", "vertexDescriptor"]
+- !private ["So13MDLMeshBufferP", "buffer"]
+- !private ["So13MDLMeshBufferP", "offset"]
+- !private ["So22MDLMeshBufferAllocatorP", "init"]
+- !private ["So8MDLNamedP", "buffer"]
+- !private ["So8MDLNamedP", "init"]
+- !private ["So8MDLNamedP", "offset"]
+- !private ["So8MDLNamedP", "vertexDescriptor"]
+- !private ["So9MDLObjectC", "init"]
+- !private ["So9MDLObjectC", "vertexDescriptor"]
+- !private ["So18MDLVertexAttributeC", "name"]
+- !private ["So19MDLVertexDescriptorC", "attributes"]
+- !private ["So7MTKMeshC", "init"]
+- !private ["So7MTKMeshC", "submeshes"]
+- !private ["So7MTKMeshC", "vertexBuffers"]
+- !private ["So13MTKMeshBufferC", "buffer"]
+- !private ["So13MTKMeshBufferC", "offset"]
+- !private ["So22MTKMeshBufferAllocatorC", "init"]
+- !private ["So10MTKSubmeshC", "indexBuffer"]
+- !private ["So10MTKSubmeshC", "indexCount"]
+- !private ["So10MTKSubmeshC", "indexType"]
+- !private ["So10MTKSubmeshC", "primitiveType"]
+- !private ["So9MTLBufferP", "contents"]
+- !private ["So9MTLBufferP", "label"]
+- !private ["So16MTLCommandBufferP", "addCompletedHandler"]
+- !private ["So16MTLCommandBufferP", "commit"]
+- !private ["So16MTLCommandBufferP", "label"]
+- !private ["So16MTLCommandBufferP", "makeRenderCommandEncoder"]
+- !private ["So16MTLCommandBufferP", "present"]
+- !private ["So17MTLCommandEncoderP", "drawIndexedPrimitives"]
+- !private ["So17MTLCommandEncoderP", "drawPrimitives"]
+- !private ["So17MTLCommandEncoderP", "endEncoding"]
+- !private ["So17MTLCommandEncoderP", "label"]
+- !private ["So17MTLCommandEncoderP", "popDebugGroup"]
+- !private ["So17MTLCommandEncoderP", "pushDebugGroup"]
+- !private ["So17MTLCommandEncoderP", "setCullMode"]
+- !private ["So17MTLCommandEncoderP", "setDepthStencilState"]
+- !private ["So17MTLCommandEncoderP", "setFragmentBuffer"]
+- !private ["So17MTLCommandEncoderP", "setFragmentTexture"]
+- !private ["So17MTLCommandEncoderP", "setRenderPipelineState"]
+- !private ["So17MTLCommandEncoderP", "setVertexBuffer"]
+- !private ["So15MTLCommandQueueP", "makeCommandBuffer"]
+- !private ["SC18MTLCompareFunctionO", "always"]
+- !private ["SC18MTLCompareFunctionO", "less"]
+- !private ["SC11MTLCullModeO", "back"]
+- !private ["SC11MTLCullModeO", "none"]
+- !private ["So25MTLDepthStencilDescriptorC", "depthCompareFunction"]
+- !private ["So25MTLDepthStencilDescriptorC", "init"]
+- !private ["So25MTLDepthStencilDescriptorC", "isDepthWriteEnabled"]
+- !private ["So9MTLDeviceP", "makeBuffer"]
+- !private ["So9MTLDeviceP", "makeCommandQueue"]
+- !private ["So9MTLDeviceP", "makeDefaultLibrary"]
+- !private ["So9MTLDeviceP", "makeDepthStencilState"]
+- !private ["So9MTLDeviceP", "makeRenderPipelineState"]
+- !private ["So10MTLLibraryP", "makeFunction"]
+- !private ["SC14MTLPixelFormatO", "bgra8Unorm"]
+- !private ["SC14MTLPixelFormatO", "depth32Float_stencil8"]
+- !private ["SC14MTLPixelFormatO", "r8Unorm"]
+- !private ["SC14MTLPixelFormatO", "rg8Unorm"]
+- !private ["SC16MTLPrimitiveTypeO", "triangleStrip"]
+- !private ["So23MTLRenderCommandEncoderP", "drawIndexedPrimitives"]
+- !private ["So23MTLRenderCommandEncoderP", "drawPrimitives"]
+- !private ["So23MTLRenderCommandEncoderP", "endEncoding"]
+- !private ["So23MTLRenderCommandEncoderP", "label"]
+- !private ["So23MTLRenderCommandEncoderP", "popDebugGroup"]
+- !private ["So23MTLRenderCommandEncoderP", "pushDebugGroup"]
+- !private ["So23MTLRenderCommandEncoderP", "setCullMode"]
+- !private ["So23MTLRenderCommandEncoderP", "setDepthStencilState"]
+- !private ["So23MTLRenderCommandEncoderP", "setFragmentBuffer"]
+- !private ["So23MTLRenderCommandEncoderP", "setFragmentTexture"]
+- !private ["So23MTLRenderCommandEncoderP", "setRenderPipelineState"]
+- !private ["So23MTLRenderCommandEncoderP", "setVertexBuffer"]
+- !private ["So42MTLRenderPipelineColorAttachmentDescriptorC", "pixelFormat"]
+- !private ["So47MTLRenderPipelineColorAttachmentDescriptorArrayC", "subscript"]
+- !private ["So27MTLRenderPipelineDescriptorC", "colorAttachments"]
+- !private ["So27MTLRenderPipelineDescriptorC", "depthAttachmentPixelFormat"]
+- !private ["So27MTLRenderPipelineDescriptorC", "fragmentFunction"]
+- !private ["So27MTLRenderPipelineDescriptorC", "init"]
+- !private ["So27MTLRenderPipelineDescriptorC", "label"]
+- !private ["So27MTLRenderPipelineDescriptorC", "sampleCount"]
+- !private ["So27MTLRenderPipelineDescriptorC", "stencilAttachmentPixelFormat"]
+- !private ["So27MTLRenderPipelineDescriptorC", "vertexDescriptor"]
+- !private ["So27MTLRenderPipelineDescriptorC", "vertexFunction"]
+- !private ["So11MTLResourceP", "contents"]
+- !private ["So11MTLResourceP", "label"]
+- !private ["SC18MTLResourceOptionsV", "storageModeShared"]
+- !private ["So28MTLVertexAttributeDescriptorC", "bufferIndex"]
+- !private ["So28MTLVertexAttributeDescriptorC", "format"]
+- !private ["So28MTLVertexAttributeDescriptorC", "offset"]
+- !private ["So33MTLVertexAttributeDescriptorArrayC", "subscript"]
+- !private ["So31MTLVertexBufferLayoutDescriptorC", "stepFunction"]
+- !private ["So31MTLVertexBufferLayoutDescriptorC", "stepRate"]
+- !private ["So31MTLVertexBufferLayoutDescriptorC", "stride"]
+- !private ["So36MTLVertexBufferLayoutDescriptorArrayC", "subscript"]
+- !private ["So19MTLVertexDescriptorC", "attributes"]
+- !private ["So19MTLVertexDescriptorC", "init"]
+- !private ["So19MTLVertexDescriptorC", "layouts"]
+- !private ["SC15MTLVertexFormatO", "float2"]
+- !private ["SC15MTLVertexFormatO", "float3"]
+- !private ["SC15MTLVertexFormatO", "half3"]
+- !private ["SC21MTLVertexStepFunctionO", "perVertex"]
+- ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "removeAll"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So7NSArrayC", "subscript"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So9NSCopyingP", "anchors"]
+- !private ["So9NSCopyingP", "attributes"]
+- !private ["So9NSCopyingP", "buffer"]
+- !private ["So9NSCopyingP", "bufferIndex"]
+- !private ["So9NSCopyingP", "camera"]
+- !private ["So9NSCopyingP", "capturedImage"]
+- !private ["So9NSCopyingP", "colorAttachments"]
+- !private ["So9NSCopyingP", "depthAttachmentPixelFormat"]
+- !private ["So9NSCopyingP", "depthCompareFunction"]
+- !private ["So9NSCopyingP", "displayTransform"]
+- !private ["So9NSCopyingP", "format"]
+- !private ["So9NSCopyingP", "fragmentFunction"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isDepthWriteEnabled"]
+- !private ["So9NSCopyingP", "label"]
+- !private ["So9NSCopyingP", "layouts"]
+- !private ["So9NSCopyingP", "lightEstimate"]
+- !private ["So9NSCopyingP", "name"]
+- !private ["So9NSCopyingP", "offset"]
+- !private ["So9NSCopyingP", "pixelFormat"]
+- !private ["So9NSCopyingP", "projectionMatrix"]
+- !private ["So9NSCopyingP", "sampleCount"]
+- !private ["So9NSCopyingP", "stencilAttachmentPixelFormat"]
+- !private ["So9NSCopyingP", "stepFunction"]
+- !private ["So9NSCopyingP", "stepRate"]
+- !private ["So9NSCopyingP", "stride"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So9NSCopyingP", "transform"]
+- !private ["So9NSCopyingP", "vertexDescriptor"]
+- !private ["So9NSCopyingP", "vertexFunction"]
+- !private ["So9NSCopyingP", "viewMatrix"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So14NSMutableArrayC", "subscript"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSObjectC", "ambientIntensity"]
+- !private ["So8NSObjectC", "anchors"]
+- !private ["So8NSObjectC", "attributes"]
+- !private ["So8NSObjectC", "buffer"]
+- !private ["So8NSObjectC", "bufferIndex"]
+- !private ["So8NSObjectC", "camera"]
+- !private ["So8NSObjectC", "capturedImage"]
+- !private ["So8NSObjectC", "colorAttachments"]
+- !private ["So8NSObjectC", "currentFrame"]
+- !private ["So8NSObjectC", "depthAttachmentPixelFormat"]
+- !private ["So8NSObjectC", "depthCompareFunction"]
+- !private ["So8NSObjectC", "displayTransform"]
+- !private ["So8NSObjectC", "format"]
+- !private ["So8NSObjectC", "fragmentFunction"]
+- !private ["So8NSObjectC", "indexBuffer"]
+- !private ["So8NSObjectC", "indexCount"]
+- !private ["So8NSObjectC", "indexType"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isDepthWriteEnabled"]
+- !private ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "layouts"]
+- !private ["So8NSObjectC", "lightEstimate"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "offset"]
+- !private ["So8NSObjectC", "pixelFormat"]
+- !private ["So8NSObjectC", "primitiveType"]
+- !private ["So8NSObjectC", "projectionMatrix"]
+- !private ["So8NSObjectC", "sampleCount"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "stencilAttachmentPixelFormat"]
+- !private ["So8NSObjectC", "stepFunction"]
+- !private ["So8NSObjectC", "stepRate"]
+- !private ["So8NSObjectC", "stride"]
+- !private ["So8NSObjectC", "submeshes"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "transform"]
+- !private ["So8NSObjectC", "vertexBuffers"]
+- !private ["So8NSObjectC", "vertexDescriptor"]
+- !private ["So8NSObjectC", "vertexFunction"]
+- !private ["So8NSObjectC", "viewMatrix"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So16NSObjectProtocolP", "addCompletedHandler"]
+- !private ["So16NSObjectProtocolP", "ambientIntensity"]
+- !private ["So16NSObjectProtocolP", "anchors"]
+- !private ["So16NSObjectProtocolP", "attributes"]
+- !private ["So16NSObjectProtocolP", "buffer"]
+- !private ["So16NSObjectProtocolP", "bufferIndex"]
+- !private ["So16NSObjectProtocolP", "camera"]
+- !private ["So16NSObjectProtocolP", "capturedImage"]
+- !private ["So16NSObjectProtocolP", "colorAttachments"]
+- !private ["So16NSObjectProtocolP", "commit"]
+- !private ["So16NSObjectProtocolP", "contents"]
+- !private ["So16NSObjectProtocolP", "currentFrame"]
+- !private ["So16NSObjectProtocolP", "depthAttachmentPixelFormat"]
+- !private ["So16NSObjectProtocolP", "depthCompareFunction"]
+- !private ["So16NSObjectProtocolP", "displayTransform"]
+- !private ["So16NSObjectProtocolP", "drawIndexedPrimitives"]
+- !private ["So16NSObjectProtocolP", "drawPrimitives"]
+- !private ["So16NSObjectProtocolP", "endEncoding"]
+- !private ["So16NSObjectProtocolP", "format"]
+- !private ["So16NSObjectProtocolP", "fragmentFunction"]
+- !private ["So16NSObjectProtocolP", "indexBuffer"]
+- !private ["So16NSObjectProtocolP", "indexCount"]
+- !private ["So16NSObjectProtocolP", "indexType"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isDepthWriteEnabled"]
+- !private ["So16NSObjectProtocolP", "label"]
+- !private ["So16NSObjectProtocolP", "layouts"]
+- !private ["So16NSObjectProtocolP", "lightEstimate"]
+- !private ["So16NSObjectProtocolP", "makeBuffer"]
+- !private ["So16NSObjectProtocolP", "makeCommandBuffer"]
+- !private ["So16NSObjectProtocolP", "makeCommandQueue"]
+- !private ["So16NSObjectProtocolP", "makeDefaultLibrary"]
+- !private ["So16NSObjectProtocolP", "makeDepthStencilState"]
+- !private ["So16NSObjectProtocolP", "makeFunction"]
+- !private ["So16NSObjectProtocolP", "makeRenderCommandEncoder"]
+- !private ["So16NSObjectProtocolP", "makeRenderPipelineState"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "offset"]
+- !private ["So16NSObjectProtocolP", "pixelFormat"]
+- !private ["So16NSObjectProtocolP", "popDebugGroup"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "primitiveType"]
+- !private ["So16NSObjectProtocolP", "projectionMatrix"]
+- !private ["So16NSObjectProtocolP", "pushDebugGroup"]
+- !private ["So16NSObjectProtocolP", "sampleCount"]
+- !private ["So16NSObjectProtocolP", "setCullMode"]
+- !private ["So16NSObjectProtocolP", "setDepthStencilState"]
+- !private ["So16NSObjectProtocolP", "setFragmentBuffer"]
+- !private ["So16NSObjectProtocolP", "setFragmentTexture"]
+- !private ["So16NSObjectProtocolP", "setRenderPipelineState"]
+- !private ["So16NSObjectProtocolP", "setVertexBuffer"]
+- !private ["So16NSObjectProtocolP", "signal"]
+- !private ["So16NSObjectProtocolP", "stencilAttachmentPixelFormat"]
+- !private ["So16NSObjectProtocolP", "stepFunction"]
+- !private ["So16NSObjectProtocolP", "stepRate"]
+- !private ["So16NSObjectProtocolP", "stride"]
+- !private ["So16NSObjectProtocolP", "submeshes"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "transform"]
+- !private ["So16NSObjectProtocolP", "vertexBuffers"]
+- !private ["So16NSObjectProtocolP", "vertexDescriptor"]
+- !private ["So16NSObjectProtocolP", "vertexFunction"]
+- !private ["So16NSObjectProtocolP", "viewMatrix"]
+- !private ["So16NSObjectProtocolP", "wait"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So14NSSecureCodingP", "transform"]
+- !private ["s7NumericP", "init"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["s9OptionSetP", "storageModeShared"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "removeAll"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "removeAll"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "always"]
+- !private ["s16RawRepresentableP", "back"]
+- !private ["s16RawRepresentableP", "bgra8Unorm"]
+- !private ["s16RawRepresentableP", "depth32Float_stencil8"]
+- !private ["s16RawRepresentableP", "float2"]
+- !private ["s16RawRepresentableP", "float3"]
+- !private ["s16RawRepresentableP", "half3"]
+- !private ["s16RawRepresentableP", "landscapeRight"]
+- !private ["s16RawRepresentableP", "less"]
+- !private ["s16RawRepresentableP", "none"]
+- !private ["s16RawRepresentableP", "perVertex"]
+- !private ["s16RawRepresentableP", "r8Unorm"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "rg8Unorm"]
+- !private ["s16RawRepresentableP", "storageModeShared"]
+- !private ["s16RawRepresentableP", "triangleStrip"]
+- !private ["s16RawRepresentableP", "triangles"]
+- ["9MetalTest25RenderDestinationProviderP", "CAMetalDrawable"]
+- ["9MetalTest25RenderDestinationProviderP", "Int"]
+- ["9MetalTest25RenderDestinationProviderP", "MTLPixelFormat"]
+- ["9MetalTest25RenderDestinationProviderP", "MTLRenderPassDescriptor"]
+- ["9MetalTest25RenderDestinationProviderP", "colorPixelFormat"]
+- ["9MetalTest25RenderDestinationProviderP", "currentDrawable"]
+- ["9MetalTest25RenderDestinationProviderP", "currentRenderPassDescriptor"]
+- ["9MetalTest25RenderDestinationProviderP", "depthStencilPixelFormat"]
+- ["9MetalTest25RenderDestinationProviderP", "sampleCount"]
+- ["9MetalTest8RendererC", "ARFrame"]
+- ["9MetalTest8RendererC", "ARSession"]
+- ["9MetalTest8RendererC", "Bool"]
+- !private ["9MetalTest8RendererC", "CGFloat"]
+- !private ["9MetalTest8RendererC", "CGPoint"]
+- ["9MetalTest8RendererC", "CGSize"]
+- ["9MetalTest8RendererC", "CVMetalTexture"]
+- ["9MetalTest8RendererC", "CVMetalTextureCache"]
+- !private ["9MetalTest8RendererC", "CVMetalTextureCacheCreate"]
+- !private ["9MetalTest8RendererC", "CVMetalTextureCacheCreateTextureFromImage"]
+- !private ["9MetalTest8RendererC", "CVMetalTextureGetTexture"]
+- ["9MetalTest8RendererC", "CVPixelBuffer"]
+- !private ["9MetalTest8RendererC", "CVPixelBufferGetHeightOfPlane"]
+- !private ["9MetalTest8RendererC", "CVPixelBufferGetPlaneCount"]
+- !private ["9MetalTest8RendererC", "CVPixelBufferGetWidthOfPlane"]
+- ["9MetalTest8RendererC", "DispatchSemaphore"]
+- !private ["9MetalTest8RendererC", "DispatchTime"]
+- !private ["9MetalTest8RendererC", "Float"]
+- !private ["9MetalTest8RendererC", "InstanceUniforms"]
+- ["9MetalTest8RendererC", "Int"]
+- !private ["9MetalTest8RendererC", "MDLMesh"]
+- !private ["9MetalTest8RendererC", "MDLVertexAttribute"]
+- !private ["9MetalTest8RendererC", "MDLVertexAttributeNormal"]
+- !private ["9MetalTest8RendererC", "MDLVertexAttributePosition"]
+- !private ["9MetalTest8RendererC", "MDLVertexAttributeTextureCoordinate"]
+- ["9MetalTest8RendererC", "MTKMesh"]
+- !private ["9MetalTest8RendererC", "MTKMeshBufferAllocator"]
+- !private ["9MetalTest8RendererC", "MTKModelIOVertexDescriptorFromMetal"]
+- ["9MetalTest8RendererC", "MTLBuffer"]
+- ["9MetalTest8RendererC", "MTLCommandQueue"]
+- !private ["9MetalTest8RendererC", "MTLDepthStencilDescriptor"]
+- ["9MetalTest8RendererC", "MTLDepthStencilState"]
+- ["9MetalTest8RendererC", "MTLDevice"]
+- ["9MetalTest8RendererC", "MTLPixelFormat"]
+- ["9MetalTest8RendererC", "MTLRenderCommandEncoder"]
+- !private ["9MetalTest8RendererC", "MTLRenderPipelineDescriptor"]
+- ["9MetalTest8RendererC", "MTLRenderPipelineState"]
+- ["9MetalTest8RendererC", "MTLVertexDescriptor"]
+- !private ["9MetalTest8RendererC", "MemoryLayout"]
+- ["9MetalTest8RendererC", "RenderDestinationProvider"]
+- !private ["9MetalTest8RendererC", "SharedUniforms"]
+- ["9MetalTest8RendererC", "UnsafeMutableRawPointer"]
+- ["9MetalTest8RendererC", "anchorDepthState"]
+- ["9MetalTest8RendererC", "anchorInstanceCount"]
+- ["9MetalTest8RendererC", "anchorPipelineState"]
+- ["9MetalTest8RendererC", "anchorUniformBuffer"]
+- ["9MetalTest8RendererC", "anchorUniformBufferAddress"]
+- ["9MetalTest8RendererC", "anchorUniformBufferOffset"]
+- ["9MetalTest8RendererC", "capturedImageDepthState"]
+- ["9MetalTest8RendererC", "capturedImagePipelineState"]
+- ["9MetalTest8RendererC", "capturedImageTextureCache"]
+- ["9MetalTest8RendererC", "capturedImageTextureCbCr"]
+- ["9MetalTest8RendererC", "capturedImageTextureY"]
+- ["9MetalTest8RendererC", "commandQueue"]
+- ["9MetalTest8RendererC", "createTexture"]
+- ["9MetalTest8RendererC", "cubeMesh"]
+- ["9MetalTest8RendererC", "deinit"]
+- ["9MetalTest8RendererC", "device"]
+- ["9MetalTest8RendererC", "drawAnchorGeometry"]
+- ["9MetalTest8RendererC", "drawCapturedImage"]
+- ["9MetalTest8RendererC", "drawRectResized"]
+- ["9MetalTest8RendererC", "geometryVertexDescriptor"]
+- ["9MetalTest8RendererC", "imagePlaneVertexBuffer"]
+- ["9MetalTest8RendererC", "inFlightSemaphore"]
+- ["9MetalTest8RendererC", "init"]
+- !private ["9MetalTest8RendererC", "kAlignedInstanceUniformsSize"]
+- !private ["9MetalTest8RendererC", "kAlignedSharedUniformsSize"]
+- !private ["9MetalTest8RendererC", "kBufferIndexInstanceUniforms"]
+- !private ["9MetalTest8RendererC", "kBufferIndexMeshGenerics"]
+- !private ["9MetalTest8RendererC", "kBufferIndexMeshPositions"]
+- !private ["9MetalTest8RendererC", "kBufferIndexSharedUniforms"]
+- !private ["9MetalTest8RendererC", "kCVReturnSuccess"]
+- !private ["9MetalTest8RendererC", "kImagePlaneVertexData"]
+- !private ["9MetalTest8RendererC", "kMaxAnchorInstanceCount"]
+- ["9MetalTest8RendererC", "kMaxBuffersInFlight"]
+- !private ["9MetalTest8RendererC", "kTextureIndexCbCr"]
+- !private ["9MetalTest8RendererC", "kTextureIndexY"]
+- !private ["9MetalTest8RendererC", "kVertexAttributeNormal"]
+- !private ["9MetalTest8RendererC", "kVertexAttributePosition"]
+- !private ["9MetalTest8RendererC", "kVertexAttributeTexcoord"]
+- ["9MetalTest8RendererC", "loadAssets"]
+- ["9MetalTest8RendererC", "loadMetal"]
+- !private ["9MetalTest8RendererC", "matrix_identity_float4x4"]
+- !private ["9MetalTest8RendererC", "max"]
+- !private ["9MetalTest8RendererC", "min"]
+- !private ["9MetalTest8RendererC", "print"]
+- ["9MetalTest8RendererC", "renderDestination"]
+- ["9MetalTest8RendererC", "session"]
+- ["9MetalTest8RendererC", "sharedUniformBuffer"]
+- ["9MetalTest8RendererC", "sharedUniformBufferAddress"]
+- ["9MetalTest8RendererC", "sharedUniformBufferOffset"]
+- !private ["9MetalTest8RendererC", "simd_mul"]
+- !private ["9MetalTest8RendererC", "simd_normalize"]
+- ["9MetalTest8RendererC", "uniformBufferIndex"]
+- ["9MetalTest8RendererC", "update"]
+- ["9MetalTest8RendererC", "updateAnchors"]
+- ["9MetalTest8RendererC", "updateBufferStates"]
+- ["9MetalTest8RendererC", "updateCapturedImageTextures"]
+- ["9MetalTest8RendererC", "updateGameState"]
+- ["9MetalTest8RendererC", "updateImagePlane"]
+- ["9MetalTest8RendererC", "updateSharedUniforms"]
+- !private ["9MetalTest8RendererC", "vector3"]
+- !private ["9MetalTest8RendererC", "vector_float3"]
+- ["9MetalTest8RendererC", "viewportSize"]
+- ["9MetalTest8RendererC", "viewportSizeDidChange"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeAll"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "z"]
+- !private ["s10SetAlgebraP", "storageModeShared"]
+- !private ["SC14SharedUniformsV", "ambientLightColor"]
+- !private ["SC14SharedUniformsV", "directionalLightColor"]
+- !private ["SC14SharedUniformsV", "directionalLightDirection"]
+- !private ["SC14SharedUniformsV", "materialShininess"]
+- !private ["SC14SharedUniformsV", "projectionMatrix"]
+- !private ["SC14SharedUniformsV", "viewMatrix"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["s10StrideableP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["SC14TextureIndicesV", "rawValue"]
+- !private ["SC22UIInterfaceOrientationO", "landscapeRight"]
+- !private ["Sp", "advanced"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "subscript"]
+- !private ["Sv", "advanced"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["SC16VertexAttributesV", "rawValue"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ambientIntensity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anchors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buffer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bufferIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "camera"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capturedImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colorAttachments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "depthAttachmentPixelFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "depthCompareFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "format"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fragmentFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexBuffer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isDepthWriteEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layouts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lightEstimate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "offset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pixelFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "primitiveType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "projectionMatrix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sampleCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stencilAttachmentPixelFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stepFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stepRate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stride"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "submeshes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vertexBuffers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vertexDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vertexFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewMatrix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "applying"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "inverted"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["4simd6float4V", "z"]
+- !private ["SC13simd_float4x4V", "columns"]
+depends-nominal:
+- !private "So8ARAnchorC"
+- !private "So8ARCameraC"
+- !private "So7ARFrameC"
+- !private "So15ARLightEstimateC"
+- !private "So9ARSessionC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "SC13BufferIndicesV"
+- !private "SC17CGAffineTransformV"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC7CGPointV"
+- "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "So14DispatchObjectC"
+- "So17DispatchSemaphoreC"
+- !private "8Dispatch0A4TimeV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "SC16InstanceUniformsV"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "SC15MDLGeometryTypeO"
+- !private "So7MDLMeshC"
+- !private "So13MDLMeshBufferP"
+- !private "So22MDLMeshBufferAllocatorP"
+- !private "So8MDLNamedP"
+- !private "So9MDLObjectC"
+- !private "So18MDLVertexAttributeC"
+- !private "So19MDLVertexDescriptorC"
+- !private "So7MTKMeshC"
+- !private "So13MTKMeshBufferC"
+- !private "So22MTKMeshBufferAllocatorC"
+- !private "So10MTKSubmeshC"
+- !private "So9MTLBufferP"
+- !private "So16MTLCommandBufferP"
+- !private "So17MTLCommandEncoderP"
+- !private "So15MTLCommandQueueP"
+- !private "SC18MTLCompareFunctionO"
+- !private "SC11MTLCullModeO"
+- !private "So25MTLDepthStencilDescriptorC"
+- !private "So9MTLDeviceP"
+- !private "So10MTLLibraryP"
+- !private "SC14MTLPixelFormatO"
+- !private "SC16MTLPrimitiveTypeO"
+- !private "So23MTLRenderCommandEncoderP"
+- !private "So42MTLRenderPipelineColorAttachmentDescriptorC"
+- !private "So47MTLRenderPipelineColorAttachmentDescriptorArrayC"
+- !private "So27MTLRenderPipelineDescriptorC"
+- !private "So11MTLResourceP"
+- !private "SC18MTLResourceOptionsV"
+- !private "So28MTLVertexAttributeDescriptorC"
+- !private "So33MTLVertexAttributeDescriptorArrayC"
+- !private "So31MTLVertexBufferLayoutDescriptorC"
+- !private "So36MTLVertexBufferLayoutDescriptorArrayC"
+- !private "So19MTLVertexDescriptorC"
+- !private "SC15MTLVertexFormatO"
+- !private "SC21MTLVertexStepFunctionO"
+- "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So7NSArrayC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSMutableArrayC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "9MetalTest25RenderDestinationProviderP"
+- "9MetalTest8RendererC"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SC14SharedUniformsV"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "SC14TextureIndicesV"
+- !private "SC22UIInterfaceOrientationO"
+- !private "Sp"
+- !private "Sv"
+- !private "SC16VertexAttributesV"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+- !private "4simd6float4V"
+- !private "SC13simd_float4x4V"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MetalKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/MetalTest/MetalTest/MetalTest-Bridging-Header.h"
+- "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/MetalTest/MetalTest/ShaderTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "cf8da488481b1a163e83c6a5696bf391"

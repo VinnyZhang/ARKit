@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "fceee14100fea5e0d2e4c14dcb13d56f"
+build_time: [1523944883, 100725000]
+inputs:
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/MetalTest/MetalTest/Renderer.swift": [1523944879, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/MetalTest/MetalTest/ViewController.swift": [1523944879, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/MetalTest/MetalTest/AppDelegate.swift": [1523944879, 0]

@@ -1,0 +1,815 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Plane"
+provides-nominal:
+- "11TestSCNView5PlaneC"
+provides-member:
+- ["11TestSCNView5PlaneC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- !private "/"
+- "ARPlaneAnchor"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- !private "Float"
+- "NSCoder"
+- "Plane"
+- !private "SCNMaterial"
+- !private "SCNMatrix4MakeRotation"
+- !private "SCNMatrix4MakeScale"
+- "SCNNode"
+- "SCNPlane"
+- !private "SCNVector3Make"
+- !private "StringLiteralType"
+- !private "UIImage"
+- !private "fatalError"
+depends-member:
+- !private ["So8ARAnchorC", "center"]
+- !private ["So8ARAnchorC", "extent"]
+- !private ["So13ARPlaneAnchorC", "center"]
+- !private ["So13ARPlaneAnchorC", "extent"]
+- !private ["Sa", "first"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s19BinaryFloatingPointP", "pi"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "SCNMaterial"]
+- !private ["s7CVarArgP", "SCNMatrix4MakeRotation"]
+- !private ["s7CVarArgP", "SCNMatrix4MakeScale"]
+- !private ["s7CVarArgP", "SCNNode"]
+- !private ["s7CVarArgP", "SCNPlane"]
+- !private ["s7CVarArgP", "SCNVector3Make"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addChildNode"]
+- !private ["s7CVarArgP", "anchor"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "contents"]
+- !private ["s7CVarArgP", "contentsTransform"]
+- !private ["s7CVarArgP", "diffuse"]
+- !private ["s7CVarArgP", "extent"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "height"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lightingModel"]
+- !private ["s7CVarArgP", "materials"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "planeGeometry"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "setTextureScale"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "width"]
+- !private ["s7CVarArgP", "wrapS"]
+- !private ["s7CVarArgP", "wrapT"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "pi"]
+- !private ["s10CollectionP", "x"]
+- !private ["s10CollectionP", "z"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNMaterial"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNMatrix4MakeRotation"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNMatrix4MakeScale"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNNode"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNPlane"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNVector3Make"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addChildNode"]
+- !private ["s28CustomDebugStringConvertibleP", "anchor"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
+- !private ["s28CustomDebugStringConvertibleP", "contentsTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "diffuse"]
+- !private ["s28CustomDebugStringConvertibleP", "extent"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lightingModel"]
+- !private ["s28CustomDebugStringConvertibleP", "materials"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "planeGeometry"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "setTextureScale"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "wrapS"]
+- !private ["s28CustomDebugStringConvertibleP", "wrapT"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "z"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "SCNMaterial"]
+- !private ["s23CustomStringConvertibleP", "SCNMatrix4MakeRotation"]
+- !private ["s23CustomStringConvertibleP", "SCNMatrix4MakeScale"]
+- !private ["s23CustomStringConvertibleP", "SCNNode"]
+- !private ["s23CustomStringConvertibleP", "SCNPlane"]
+- !private ["s23CustomStringConvertibleP", "SCNVector3Make"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addChildNode"]
+- !private ["s23CustomStringConvertibleP", "anchor"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "contents"]
+- !private ["s23CustomStringConvertibleP", "contentsTransform"]
+- !private ["s23CustomStringConvertibleP", "diffuse"]
+- !private ["s23CustomStringConvertibleP", "extent"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "height"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lightingModel"]
+- !private ["s23CustomStringConvertibleP", "materials"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "planeGeometry"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "setTextureScale"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "width"]
+- !private ["s23CustomStringConvertibleP", "wrapS"]
+- !private ["s23CustomStringConvertibleP", "wrapT"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "pi"]
+- !private ["Sd", "pi"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "pi"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "Float"]
+- !private ["s9EquatableP", "SCNMaterial"]
+- !private ["s9EquatableP", "SCNMatrix4MakeRotation"]
+- !private ["s9EquatableP", "SCNMatrix4MakeScale"]
+- !private ["s9EquatableP", "SCNNode"]
+- !private ["s9EquatableP", "SCNPlane"]
+- !private ["s9EquatableP", "SCNVector3Make"]
+- !private ["s9EquatableP", "UIImage"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addChildNode"]
+- !private ["s9EquatableP", "anchor"]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "contents"]
+- !private ["s9EquatableP", "contentsTransform"]
+- !private ["s9EquatableP", "diffuse"]
+- !private ["s9EquatableP", "extent"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lightingModel"]
+- !private ["s9EquatableP", "materials"]
+- !private ["s9EquatableP", "physicallyBased"]
+- !private ["s9EquatableP", "pi"]
+- !private ["s9EquatableP", "planeGeometry"]
+- !private ["s9EquatableP", "position"]
+- !private ["s9EquatableP", "repeat"]
+- !private ["s9EquatableP", "setTextureScale"]
+- !private ["s9EquatableP", "transform"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "wrapS"]
+- !private ["s9EquatableP", "wrapT"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "pi"]
+- !private ["s25ExpressibleByArrayLiteralP", "x"]
+- !private ["s25ExpressibleByArrayLiteralP", "z"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["Sf", "pi"]
+- !private ["s7Float80V", "pi"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s13FloatingPointP", "pi"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "Float"]
+- !private ["s8HashableP", "SCNMaterial"]
+- !private ["s8HashableP", "SCNMatrix4MakeRotation"]
+- !private ["s8HashableP", "SCNMatrix4MakeScale"]
+- !private ["s8HashableP", "SCNNode"]
+- !private ["s8HashableP", "SCNPlane"]
+- !private ["s8HashableP", "SCNVector3Make"]
+- !private ["s8HashableP", "UIImage"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "addChildNode"]
+- !private ["s8HashableP", "anchor"]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "contents"]
+- !private ["s8HashableP", "contentsTransform"]
+- !private ["s8HashableP", "diffuse"]
+- !private ["s8HashableP", "extent"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "height"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lightingModel"]
+- !private ["s8HashableP", "materials"]
+- !private ["s8HashableP", "physicallyBased"]
+- !private ["s8HashableP", "pi"]
+- !private ["s8HashableP", "planeGeometry"]
+- !private ["s8HashableP", "position"]
+- !private ["s8HashableP", "repeat"]
+- !private ["s8HashableP", "setTextureScale"]
+- !private ["s8HashableP", "transform"]
+- !private ["s8HashableP", "width"]
+- !private ["s8HashableP", "wrapS"]
+- !private ["s8HashableP", "wrapT"]
+- !private ["So11SCNMaterialC13LightingModelV", "physicallyBased"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "Float"]
+- !private ["So8NSCodingP", "SCNMaterial"]
+- !private ["So8NSCodingP", "SCNMatrix4MakeRotation"]
+- !private ["So8NSCodingP", "SCNMatrix4MakeScale"]
+- !private ["So8NSCodingP", "SCNNode"]
+- !private ["So8NSCodingP", "SCNPlane"]
+- !private ["So8NSCodingP", "SCNVector3Make"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addChildNode"]
+- !private ["So8NSCodingP", "anchor"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "contents"]
+- !private ["So8NSCodingP", "contentsTransform"]
+- !private ["So8NSCodingP", "diffuse"]
+- !private ["So8NSCodingP", "extent"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "height"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lightingModel"]
+- !private ["So8NSCodingP", "materials"]
+- !private ["So8NSCodingP", "planeGeometry"]
+- !private ["So8NSCodingP", "position"]
+- !private ["So8NSCodingP", "setTextureScale"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "width"]
+- !private ["So8NSCodingP", "wrapS"]
+- !private ["So8NSCodingP", "wrapT"]
+- !private ["So9NSCopyingP", "CGFloat"]
+- !private ["So9NSCopyingP", "Float"]
+- !private ["So9NSCopyingP", "SCNMaterial"]
+- !private ["So9NSCopyingP", "SCNMatrix4MakeRotation"]
+- !private ["So9NSCopyingP", "SCNMatrix4MakeScale"]
+- !private ["So9NSCopyingP", "SCNNode"]
+- !private ["So9NSCopyingP", "SCNPlane"]
+- !private ["So9NSCopyingP", "SCNVector3Make"]
+- !private ["So9NSCopyingP", "UIImage"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "addChildNode"]
+- !private ["So9NSCopyingP", "anchor"]
+- !private ["So9NSCopyingP", "center"]
+- !private ["So9NSCopyingP", "diffuse"]
+- !private ["So9NSCopyingP", "extent"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "height"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lightingModel"]
+- !private ["So9NSCopyingP", "materials"]
+- !private ["So9NSCopyingP", "planeGeometry"]
+- !private ["So9NSCopyingP", "position"]
+- !private ["So9NSCopyingP", "setTextureScale"]
+- !private ["So9NSCopyingP", "transform"]
+- !private ["So9NSCopyingP", "width"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "ARPlaneAnchor"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "SCNMaterial"]
+- !private ["So8NSObjectC", "SCNMatrix4MakeRotation"]
+- !private ["So8NSObjectC", "SCNMatrix4MakeScale"]
+- !private ["So8NSObjectC", "SCNNode"]
+- ["So8NSObjectC", "SCNPlane"]
+- !private ["So8NSObjectC", "SCNVector3Make"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "addChildNode"]
+- ["So8NSObjectC", "anchor"]
+- !private ["So8NSObjectC", "center"]
+- !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "contentsTransform"]
+- !private ["So8NSObjectC", "diffuse"]
+- !private ["So8NSObjectC", "extent"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "height"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lightingModel"]
+- !private ["So8NSObjectC", "materials"]
+- ["So8NSObjectC", "planeGeometry"]
+- !private ["So8NSObjectC", "position"]
+- ["So8NSObjectC", "setTextureScale"]
+- !private ["So8NSObjectC", "transform"]
+- ["So8NSObjectC", "update"]
+- !private ["So8NSObjectC", "width"]
+- !private ["So8NSObjectC", "wrapS"]
+- !private ["So8NSObjectC", "wrapT"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "Float"]
+- !private ["So16NSObjectProtocolP", "SCNMaterial"]
+- !private ["So16NSObjectProtocolP", "SCNMatrix4MakeRotation"]
+- !private ["So16NSObjectProtocolP", "SCNMatrix4MakeScale"]
+- !private ["So16NSObjectProtocolP", "SCNNode"]
+- !private ["So16NSObjectProtocolP", "SCNPlane"]
+- !private ["So16NSObjectProtocolP", "SCNVector3Make"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addChildNode"]
+- !private ["So16NSObjectProtocolP", "anchor"]
+- !private ["So16NSObjectProtocolP", "center"]
+- !private ["So16NSObjectProtocolP", "contents"]
+- !private ["So16NSObjectProtocolP", "contentsTransform"]
+- !private ["So16NSObjectProtocolP", "diffuse"]
+- !private ["So16NSObjectProtocolP", "extent"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "height"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lightingModel"]
+- !private ["So16NSObjectProtocolP", "materials"]
+- !private ["So16NSObjectProtocolP", "planeGeometry"]
+- !private ["So16NSObjectProtocolP", "position"]
+- !private ["So16NSObjectProtocolP", "setTextureScale"]
+- !private ["So16NSObjectProtocolP", "transform"]
+- !private ["So16NSObjectProtocolP", "width"]
+- !private ["So16NSObjectProtocolP", "wrapS"]
+- !private ["So16NSObjectProtocolP", "wrapT"]
+- !private ["So14NSSecureCodingP", "CGFloat"]
+- !private ["So14NSSecureCodingP", "Float"]
+- !private ["So14NSSecureCodingP", "SCNMaterial"]
+- !private ["So14NSSecureCodingP", "SCNMatrix4MakeRotation"]
+- !private ["So14NSSecureCodingP", "SCNMatrix4MakeScale"]
+- !private ["So14NSSecureCodingP", "SCNNode"]
+- !private ["So14NSSecureCodingP", "SCNPlane"]
+- !private ["So14NSSecureCodingP", "SCNVector3Make"]
+- !private ["So14NSSecureCodingP", "UIImage"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "addChildNode"]
+- !private ["So14NSSecureCodingP", "anchor"]
+- !private ["So14NSSecureCodingP", "center"]
+- !private ["So14NSSecureCodingP", "contents"]
+- !private ["So14NSSecureCodingP", "contentsTransform"]
+- !private ["So14NSSecureCodingP", "diffuse"]
+- !private ["So14NSSecureCodingP", "extent"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "height"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lightingModel"]
+- !private ["So14NSSecureCodingP", "materials"]
+- !private ["So14NSSecureCodingP", "planeGeometry"]
+- !private ["So14NSSecureCodingP", "position"]
+- !private ["So14NSSecureCodingP", "setTextureScale"]
+- !private ["So14NSSecureCodingP", "transform"]
+- !private ["So14NSSecureCodingP", "width"]
+- !private ["So14NSSecureCodingP", "wrapS"]
+- !private ["So14NSSecureCodingP", "wrapT"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "pi"]
+- ["11TestSCNView5PlaneC", "ARPlaneAnchor"]
+- !private ["11TestSCNView5PlaneC", "CGFloat"]
+- !private ["11TestSCNView5PlaneC", "Float"]
+- ["11TestSCNView5PlaneC", "NSCoder"]
+- !private ["11TestSCNView5PlaneC", "SCNMaterial"]
+- !private ["11TestSCNView5PlaneC", "SCNMatrix4MakeRotation"]
+- !private ["11TestSCNView5PlaneC", "SCNMatrix4MakeScale"]
+- !private ["11TestSCNView5PlaneC", "SCNNode"]
+- ["11TestSCNView5PlaneC", "SCNPlane"]
+- !private ["11TestSCNView5PlaneC", "SCNVector3Make"]
+- !private ["11TestSCNView5PlaneC", "UIImage"]
+- !private ["11TestSCNView5PlaneC", "addChildNode"]
+- ["11TestSCNView5PlaneC", "anchor"]
+- ["11TestSCNView5PlaneC", "deinit"]
+- !private ["11TestSCNView5PlaneC", "fatalError"]
+- ["11TestSCNView5PlaneC", "init"]
+- ["11TestSCNView5PlaneC", "planeGeometry"]
+- !private ["11TestSCNView5PlaneC", "position"]
+- ["11TestSCNView5PlaneC", "setTextureScale"]
+- ["11TestSCNView5PlaneC", "update"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "physicallyBased"]
+- !private ["s16RawRepresentableP", "repeat"]
+- !private ["So13SCNActionableP", "CGFloat"]
+- !private ["So13SCNActionableP", "Float"]
+- !private ["So13SCNActionableP", "SCNMaterial"]
+- !private ["So13SCNActionableP", "SCNMatrix4MakeRotation"]
+- !private ["So13SCNActionableP", "SCNMatrix4MakeScale"]
+- !private ["So13SCNActionableP", "SCNNode"]
+- !private ["So13SCNActionableP", "SCNPlane"]
+- !private ["So13SCNActionableP", "SCNVector3Make"]
+- !private ["So13SCNActionableP", "UIImage"]
+- ["So13SCNActionableP", ""]
+- !private ["So13SCNActionableP", "addChildNode"]
+- !private ["So13SCNActionableP", "anchor"]
+- !private ["So13SCNActionableP", "fatalError"]
+- !private ["So13SCNActionableP", "init"]
+- !private ["So13SCNActionableP", "planeGeometry"]
+- !private ["So13SCNActionableP", "position"]
+- !private ["So13SCNActionableP", "setTextureScale"]
+- !private ["So13SCNActionableP", "transform"]
+- !private ["So13SCNAnimatableP", "CGFloat"]
+- !private ["So13SCNAnimatableP", "Float"]
+- !private ["So13SCNAnimatableP", "SCNMaterial"]
+- !private ["So13SCNAnimatableP", "SCNMatrix4MakeRotation"]
+- !private ["So13SCNAnimatableP", "SCNMatrix4MakeScale"]
+- !private ["So13SCNAnimatableP", "SCNNode"]
+- !private ["So13SCNAnimatableP", "SCNPlane"]
+- !private ["So13SCNAnimatableP", "SCNVector3Make"]
+- !private ["So13SCNAnimatableP", "UIImage"]
+- ["So13SCNAnimatableP", ""]
+- !private ["So13SCNAnimatableP", "addChildNode"]
+- !private ["So13SCNAnimatableP", "anchor"]
+- !private ["So13SCNAnimatableP", "contents"]
+- !private ["So13SCNAnimatableP", "contentsTransform"]
+- !private ["So13SCNAnimatableP", "diffuse"]
+- !private ["So13SCNAnimatableP", "fatalError"]
+- !private ["So13SCNAnimatableP", "height"]
+- !private ["So13SCNAnimatableP", "init"]
+- !private ["So13SCNAnimatableP", "lightingModel"]
+- !private ["So13SCNAnimatableP", "materials"]
+- !private ["So13SCNAnimatableP", "planeGeometry"]
+- !private ["So13SCNAnimatableP", "position"]
+- !private ["So13SCNAnimatableP", "setTextureScale"]
+- !private ["So13SCNAnimatableP", "transform"]
+- !private ["So13SCNAnimatableP", "width"]
+- !private ["So13SCNAnimatableP", "wrapS"]
+- !private ["So13SCNAnimatableP", "wrapT"]
+- !private ["So17SCNBoundingVolumeP", "CGFloat"]
+- !private ["So17SCNBoundingVolumeP", "Float"]
+- !private ["So17SCNBoundingVolumeP", "SCNMaterial"]
+- !private ["So17SCNBoundingVolumeP", "SCNMatrix4MakeRotation"]
+- !private ["So17SCNBoundingVolumeP", "SCNMatrix4MakeScale"]
+- !private ["So17SCNBoundingVolumeP", "SCNNode"]
+- !private ["So17SCNBoundingVolumeP", "SCNPlane"]
+- !private ["So17SCNBoundingVolumeP", "SCNVector3Make"]
+- !private ["So17SCNBoundingVolumeP", "UIImage"]
+- ["So17SCNBoundingVolumeP", ""]
+- !private ["So17SCNBoundingVolumeP", "addChildNode"]
+- !private ["So17SCNBoundingVolumeP", "anchor"]
+- !private ["So17SCNBoundingVolumeP", "fatalError"]
+- !private ["So17SCNBoundingVolumeP", "height"]
+- !private ["So17SCNBoundingVolumeP", "init"]
+- !private ["So17SCNBoundingVolumeP", "materials"]
+- !private ["So17SCNBoundingVolumeP", "planeGeometry"]
+- !private ["So17SCNBoundingVolumeP", "position"]
+- !private ["So17SCNBoundingVolumeP", "setTextureScale"]
+- !private ["So17SCNBoundingVolumeP", "transform"]
+- !private ["So17SCNBoundingVolumeP", "width"]
+- !private ["So11SCNGeometryC", "height"]
+- !private ["So11SCNGeometryC", "init"]
+- !private ["So11SCNGeometryC", "materials"]
+- !private ["So11SCNGeometryC", "width"]
+- !private ["So11SCNMaterialC", "diffuse"]
+- !private ["So11SCNMaterialC", "init"]
+- !private ["So11SCNMaterialC", "lightingModel"]
+- !private ["So19SCNMaterialPropertyC", "contents"]
+- !private ["So19SCNMaterialPropertyC", "contentsTransform"]
+- !private ["So19SCNMaterialPropertyC", "wrapS"]
+- !private ["So19SCNMaterialPropertyC", "wrapT"]
+- ["So7SCNNodeC", "ARPlaneAnchor"]
+- !private ["So7SCNNodeC", "CGFloat"]
+- !private ["So7SCNNodeC", "Float"]
+- ["So7SCNNodeC", "NSCoder"]
+- !private ["So7SCNNodeC", "SCNMaterial"]
+- !private ["So7SCNNodeC", "SCNMatrix4MakeRotation"]
+- !private ["So7SCNNodeC", "SCNMatrix4MakeScale"]
+- !private ["So7SCNNodeC", "SCNNode"]
+- ["So7SCNNodeC", "SCNPlane"]
+- !private ["So7SCNNodeC", "SCNVector3Make"]
+- !private ["So7SCNNodeC", "UIImage"]
+- ["So7SCNNodeC", ""]
+- !private ["So7SCNNodeC", "addChildNode"]
+- ["So7SCNNodeC", "anchor"]
+- !private ["So7SCNNodeC", "fatalError"]
+- ["So7SCNNodeC", "init"]
+- ["So7SCNNodeC", "planeGeometry"]
+- !private ["So7SCNNodeC", "position"]
+- ["So7SCNNodeC", "setTextureScale"]
+- !private ["So7SCNNodeC", "transform"]
+- ["So7SCNNodeC", "update"]
+- !private ["So8SCNPlaneC", "height"]
+- !private ["So8SCNPlaneC", "init"]
+- !private ["So8SCNPlaneC", "materials"]
+- !private ["So8SCNPlaneC", "width"]
+- !private ["So11SCNShadableP", "diffuse"]
+- !private ["So11SCNShadableP", "height"]
+- !private ["So11SCNShadableP", "init"]
+- !private ["So11SCNShadableP", "lightingModel"]
+- !private ["So11SCNShadableP", "materials"]
+- !private ["So11SCNShadableP", "width"]
+- !private ["SC11SCNWrapModeO", "repeat"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "pi"]
+- !private ["s8SequenceP", "x"]
+- !private ["s8SequenceP", "z"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pi"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- !private ["So18UIFocusEnvironmentP", "SCNMaterial"]
+- !private ["So18UIFocusEnvironmentP", "SCNMatrix4MakeRotation"]
+- !private ["So18UIFocusEnvironmentP", "SCNMatrix4MakeScale"]
+- !private ["So18UIFocusEnvironmentP", "SCNNode"]
+- !private ["So18UIFocusEnvironmentP", "SCNPlane"]
+- !private ["So18UIFocusEnvironmentP", "SCNVector3Make"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addChildNode"]
+- !private ["So18UIFocusEnvironmentP", "anchor"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "planeGeometry"]
+- !private ["So18UIFocusEnvironmentP", "position"]
+- !private ["So18UIFocusEnvironmentP", "setTextureScale"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So11UIFocusItemP", "CGFloat"]
+- !private ["So11UIFocusItemP", "Float"]
+- !private ["So11UIFocusItemP", "SCNMaterial"]
+- !private ["So11UIFocusItemP", "SCNMatrix4MakeRotation"]
+- !private ["So11UIFocusItemP", "SCNMatrix4MakeScale"]
+- !private ["So11UIFocusItemP", "SCNNode"]
+- !private ["So11UIFocusItemP", "SCNPlane"]
+- !private ["So11UIFocusItemP", "SCNVector3Make"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addChildNode"]
+- !private ["So11UIFocusItemP", "anchor"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "planeGeometry"]
+- !private ["So11UIFocusItemP", "position"]
+- !private ["So11UIFocusItemP", "setTextureScale"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNMaterial"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNMatrix4MakeRotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNMatrix4MakeScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNPlane"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNVector3Make"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChildNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentsTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "diffuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "extent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "height"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lightingModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "materials"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "planeGeometry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTextureScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "width"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wrapS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wrapT"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "physicallyBased"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s20_SwiftNewtypeWrapperP", "physicallyBased"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["4simd7double2V", "pi"]
+- !private ["4simd7double3V", "pi"]
+- !private ["4simd7double4V", "pi"]
+- !private ["4simd6float2V", "pi"]
+- !private ["4simd6float3V", "pi"]
+- !private ["4simd6float3V", "x"]
+- !private ["4simd6float3V", "z"]
+- !private ["4simd6float4V", "pi"]
+- !private ["4simd4int2V", "pi"]
+- !private ["4simd4int3V", "pi"]
+- !private ["4simd4int4V", "pi"]
+- !private ["SC14simd_double2x2V", "pi"]
+- !private ["SC14simd_double2x3V", "pi"]
+- !private ["SC14simd_double2x4V", "pi"]
+- !private ["SC14simd_double3x2V", "pi"]
+- !private ["SC14simd_double3x3V", "pi"]
+- !private ["SC14simd_double3x4V", "pi"]
+- !private ["SC14simd_double4x2V", "pi"]
+- !private ["SC14simd_double4x3V", "pi"]
+- !private ["SC14simd_double4x4V", "pi"]
+- !private ["SC13simd_float2x2V", "pi"]
+- !private ["SC13simd_float2x3V", "pi"]
+- !private ["SC13simd_float2x4V", "pi"]
+- !private ["SC13simd_float3x2V", "pi"]
+- !private ["SC13simd_float3x3V", "pi"]
+- !private ["SC13simd_float3x4V", "pi"]
+- !private ["SC13simd_float4x2V", "pi"]
+- !private ["SC13simd_float4x3V", "pi"]
+- !private ["SC13simd_float4x4V", "pi"]
+- !private ["SC10simd_quatdV", "pi"]
+- !private ["SC10simd_quatfV", "pi"]
+- !private ["4simd5uint2V", "pi"]
+- !private ["4simd5uint3V", "pi"]
+- !private ["4simd5uint4V", "pi"]
+depends-nominal:
+- !private "So8ARAnchorC"
+- !private "So13ARPlaneAnchorC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "s7Float80V"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "So11SCNMaterialC13LightingModelV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "s7NumericP"
+- "11TestSCNView5PlaneC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "So13SCNActionableP"
+- "So13SCNAnimatableP"
+- "So17SCNBoundingVolumeP"
+- !private "So11SCNGeometryC"
+- !private "So11SCNMaterialC"
+- !private "So19SCNMaterialPropertyC"
+- "So7SCNNodeC"
+- !private "So8SCNPlaneC"
+- !private "So11SCNShadableP"
+- !private "SC11SCNWrapModeO"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+- !private "4simd7double2V"
+- !private "4simd7double3V"
+- !private "4simd7double4V"
+- !private "4simd6float2V"
+- !private "4simd6float3V"
+- !private "4simd6float4V"
+- !private "4simd4int2V"
+- !private "4simd4int3V"
+- !private "4simd4int4V"
+- !private "SC14simd_double2x2V"
+- !private "SC14simd_double2x3V"
+- !private "SC14simd_double2x4V"
+- !private "SC14simd_double3x2V"
+- !private "SC14simd_double3x3V"
+- !private "SC14simd_double3x4V"
+- !private "SC14simd_double4x2V"
+- !private "SC14simd_double4x3V"
+- !private "SC14simd_double4x4V"
+- !private "SC13simd_float2x2V"
+- !private "SC13simd_float2x3V"
+- !private "SC13simd_float2x4V"
+- !private "SC13simd_float3x2V"
+- !private "SC13simd_float3x3V"
+- !private "SC13simd_float3x4V"
+- !private "SC13simd_float4x2V"
+- !private "SC13simd_float4x3V"
+- !private "SC13simd_float4x4V"
+- !private "SC10simd_quatdV"
+- !private "SC10simd_quatfV"
+- !private "4simd5uint2V"
+- !private "4simd5uint3V"
+- !private "4simd5uint4V"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "21849d932bc37495a5d1cf0129270fd9"

@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "036138F1E1B9AAF6A4186DA0031285266F9B2264",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "036138F1E1B9AAF6A4186DA0031285266F9B2264" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "773E1AB7-5EAA-47EE-9A9F-C9B4848ED47A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "036138F1E1B9AAF6A4186DA0031285266F9B2264" : "ARKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SpriteKitTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SpriteKitTest\/SpriteKitTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VinnyZhang\/ARKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "036138F1E1B9AAF6A4186DA0031285266F9B2264"
+    }
+  ]
+}

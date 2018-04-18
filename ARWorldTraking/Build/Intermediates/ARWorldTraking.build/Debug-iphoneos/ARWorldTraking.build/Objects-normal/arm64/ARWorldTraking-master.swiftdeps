@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "1b9b9457c73874a476c3773bf3c1dbca"
+build_time: [1524038970, 744554000]
+inputs:
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/ARWorldTraking/ARWorldTraking/ViewController.swift": [1524038969, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/ARWorldTraking/ARWorldTraking/AppDelegate.swift": [1524031353, 0]

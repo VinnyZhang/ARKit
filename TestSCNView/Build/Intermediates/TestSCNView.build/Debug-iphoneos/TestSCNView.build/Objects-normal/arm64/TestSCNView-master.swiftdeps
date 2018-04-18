@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "284236004757c8e478f6ba62fdbc6ec9"
+build_time: [1524031680, 41836000]
+inputs:
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/ArtTreeViewController.swift": [1523795370, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/SCNBoxViewController.swift": [1523795370, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/MainViewController.swift": [1523795370, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/DetectionPlaneViewController.swift": [1523795370, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/SCNViewController.swift": [1523947816, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/Plane.swift": [1523795370, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/PlaneBox.swift": [1523795370, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/TestSCNView/TestSCNView/AppDelegate.swift": [1523795370, 0]

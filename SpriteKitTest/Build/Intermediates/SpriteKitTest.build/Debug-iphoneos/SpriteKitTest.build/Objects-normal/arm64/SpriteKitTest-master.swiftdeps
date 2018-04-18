@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "25d6cfbdb4fc62ae21447d7eb1dc9203"
+build_time: [1523944822, 132169000]
+inputs:
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/SpriteKitTest/SpriteKitTest/ViewController.swift": [1523944821, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/SpriteKitTest/SpriteKitTest/Scene.swift": [1523944382, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARKit/SpriteKitTest/SpriteKitTest/AppDelegate.swift": [1523936306, 0]

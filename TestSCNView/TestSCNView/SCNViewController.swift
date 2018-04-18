@@ -23,6 +23,7 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         super.viewDidLoad()
         
         sceneView.frame = self.view.frame
+
         
 //        let point = CGPoint(x:0,y:100)
 //        let size = CGSize(width:320,height:300)
@@ -38,20 +39,29 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         //Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
+        
         //Create a new scene
         let scene = SCNScene(named:"art.scnassets/ship.scn")!
+        scene.rootNode.childNodes.first?.position = SCNVector3Make(-1, -1, 0)
         
-//        let scene = SCNScene()
         
 //      添加3D立方体
         let boxGeometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.0)
+        let material = SCNMaterial()
+        material.diffuse.contents = scene
+        material.lightingModel = .physicallyBased
+        boxGeometry.materials = [material]
+        
+        
         let boxNode = SCNNode(geometry: boxGeometry)
+        
         boxNode.position = SCNVector3Make(-0.4, 0, -0.5)
+
+        
         scene.rootNode.addChildNode(boxNode)
         
         //Set the scene to the view
         sceneView.scene = scene
-        
         
         
     }
@@ -59,7 +69,15 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         //Create a session configuration
-        let configuration = ARWorldTrackingConfiguration()
+        var configuration : ARConfiguration!
+        if ARWorldTrackingConfiguration.isSupported {
+            configuration = ARWorldTrackingConfiguration()//6DOF【3个旋转轴 3个平移轴】
+            
+        }
+        else {
+            configuration = AROrientationTrackingConfiguration()//3DOF 【3个旋转轴】
+        }
+
         //Run the view's session
         sceneView.session.run(configuration)
         

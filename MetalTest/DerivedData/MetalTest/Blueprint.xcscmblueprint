@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "036138F1E1B9AAF6A4186DA0031285266F9B2264",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "036138F1E1B9AAF6A4186DA0031285266F9B2264" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E98AB8EC-F9C6-441D-8319-B810873580E6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "036138F1E1B9AAF6A4186DA0031285266F9B2264" : "ARKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MetalTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MetalTest\/MetalTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VinnyZhang\/ARKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "036138F1E1B9AAF6A4186DA0031285266F9B2264"
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "13SpriteKitTest14ViewControllerC"
+provides-member:
+- ["13SpriteKitTest14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "sceneView"
+- "session"
+- "sessionInterruptionEnded"
+- "sessionWasInterrupted"
+- "view"
+- "viewDidLoad"
+- "viewWillAppear"
+- "viewWillDisappear"
+depends-top-level:
+- "ARAnchor"
+- "ARSKView"
+- "ARSKViewDelegate"
+- "ARSession"
+- !private "ARWorldTrackingConfiguration"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Error"
+- !private "SKLabelNode"
+- "SKNode"
+- !private "SKScene"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- "ViewController"
+depends-member:
+- !private ["So15ARConfigurationC", "init"]
+- !private ["So8ARSKViewC", "delegate"]
+- !private ["So8ARSKViewC", "presentScene"]
+- !private ["So8ARSKViewC", "session"]
+- !private ["So8ARSKViewC", "showsFPS"]
+- !private ["So8ARSKViewC", "showsNodeCount"]
+- !private ["So16ARSKViewDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So16ARSKViewDelegateP", "SKLabelNode"]
+- !private ["So16ARSKViewDelegateP", "SKScene"]
+- ["So16ARSKViewDelegateP", ""]
+- !private ["So16ARSKViewDelegateP", "sceneView"]
+- ["So16ARSKViewDelegateP", "session"]
+- ["So16ARSKViewDelegateP", "sessionInterruptionEnded"]
+- ["So16ARSKViewDelegateP", "sessionShouldAttemptRelocalization"]
+- ["So16ARSKViewDelegateP", "sessionWasInterrupted"]
+- ["So16ARSKViewDelegateP", "view"]
+- !private ["So9ARSessionC", "pause"]
+- !private ["So9ARSessionC", "run"]
+- !private ["So17ARSessionObserverP", "ARWorldTrackingConfiguration"]
+- !private ["So17ARSessionObserverP", "SKLabelNode"]
+- !private ["So17ARSessionObserverP", "SKScene"]
+- ["So17ARSessionObserverP", ""]
+- !private ["So17ARSessionObserverP", "sceneView"]
+- ["So17ARSessionObserverP", "session"]
+- ["So17ARSessionObserverP", "sessionInterruptionEnded"]
+- ["So17ARSessionObserverP", "sessionShouldAttemptRelocalization"]
+- ["So17ARSessionObserverP", "sessionWasInterrupted"]
+- ["So17ARSessionObserverP", "view"]
+- !private ["So28ARWorldTrackingConfigurationC", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "presentScene"]
+- !private ["So15CALayerDelegateP", "session"]
+- !private ["So15CALayerDelegateP", "showsFPS"]
+- !private ["So15CALayerDelegateP", "showsNodeCount"]
+- !private ["s7CVarArgP", "ARWorldTrackingConfiguration"]
+- !private ["s7CVarArgP", "SKLabelNode"]
+- !private ["s7CVarArgP", "SKScene"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "horizontalAlignmentMode"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pause"]
+- !private ["s7CVarArgP", "presentScene"]
+- !private ["s7CVarArgP", "run"]
+- !private ["s7CVarArgP", "sceneView"]
+- ["s7CVarArgP", "session"]
+- ["s7CVarArgP", "sessionInterruptionEnded"]
+- ["s7CVarArgP", "sessionShouldAttemptRelocalization"]
+- ["s7CVarArgP", "sessionWasInterrupted"]
+- !private ["s7CVarArgP", "showsFPS"]
+- !private ["s7CVarArgP", "showsNodeCount"]
+- !private ["s7CVarArgP", "verticalAlignmentMode"]
+- ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ARWorldTrackingConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "SKLabelNode"]
+- !private ["s28CustomDebugStringConvertibleP", "SKScene"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontalAlignmentMode"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pause"]
+- !private ["s28CustomDebugStringConvertibleP", "presentScene"]
+- !private ["s28CustomDebugStringConvertibleP", "run"]
+- !private ["s28CustomDebugStringConvertibleP", "sceneView"]
+- ["s28CustomDebugStringConvertibleP", "session"]
+- ["s28CustomDebugStringConvertibleP", "sessionInterruptionEnded"]
+- ["s28CustomDebugStringConvertibleP", "sessionShouldAttemptRelocalization"]
+- ["s28CustomDebugStringConvertibleP", "sessionWasInterrupted"]
+- !private ["s28CustomDebugStringConvertibleP", "showsFPS"]
+- !private ["s28CustomDebugStringConvertibleP", "showsNodeCount"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalAlignmentMode"]
+- ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ARWorldTrackingConfiguration"]
+- !private ["s23CustomStringConvertibleP", "SKLabelNode"]
+- !private ["s23CustomStringConvertibleP", "SKScene"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "horizontalAlignmentMode"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pause"]
+- !private ["s23CustomStringConvertibleP", "presentScene"]
+- !private ["s23CustomStringConvertibleP", "run"]
+- !private ["s23CustomStringConvertibleP", "sceneView"]
+- ["s23CustomStringConvertibleP", "session"]
+- ["s23CustomStringConvertibleP", "sessionInterruptionEnded"]
+- ["s23CustomStringConvertibleP", "sessionShouldAttemptRelocalization"]
+- ["s23CustomStringConvertibleP", "sessionWasInterrupted"]
+- !private ["s23CustomStringConvertibleP", "showsFPS"]
+- !private ["s23CustomStringConvertibleP", "showsNodeCount"]
+- !private ["s23CustomStringConvertibleP", "verticalAlignmentMode"]
+- ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ARWorldTrackingConfiguration"]
+- !private ["s9EquatableP", "SKLabelNode"]
+- !private ["s9EquatableP", "SKScene"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "horizontalAlignmentMode"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "pause"]
+- !private ["s9EquatableP", "presentScene"]
+- !private ["s9EquatableP", "run"]
+- !private ["s9EquatableP", "sceneView"]
+- ["s9EquatableP", "session"]
+- ["s9EquatableP", "sessionInterruptionEnded"]
+- ["s9EquatableP", "sessionShouldAttemptRelocalization"]
+- ["s9EquatableP", "sessionWasInterrupted"]
+- !private ["s9EquatableP", "showsFPS"]
+- !private ["s9EquatableP", "showsNodeCount"]
+- !private ["s9EquatableP", "verticalAlignmentMode"]
+- ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWillAppear"]
+- !private ["s9EquatableP", "viewWillDisappear"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "ARWorldTrackingConfiguration"]
+- !private ["s8HashableP", "SKLabelNode"]
+- !private ["s8HashableP", "SKScene"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "horizontalAlignmentMode"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "pause"]
+- !private ["s8HashableP", "presentScene"]
+- !private ["s8HashableP", "run"]
+- !private ["s8HashableP", "sceneView"]
+- ["s8HashableP", "session"]
+- ["s8HashableP", "sessionInterruptionEnded"]
+- ["s8HashableP", "sessionShouldAttemptRelocalization"]
+- ["s8HashableP", "sessionWasInterrupted"]
+- !private ["s8HashableP", "showsFPS"]
+- !private ["s8HashableP", "showsNodeCount"]
+- !private ["s8HashableP", "verticalAlignmentMode"]
+- ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWillAppear"]
+- !private ["s8HashableP", "viewWillDisappear"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "ARWorldTrackingConfiguration"]
+- !private ["So8NSCodingP", "SKLabelNode"]
+- !private ["So8NSCodingP", "SKScene"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "horizontalAlignmentMode"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "presentScene"]
+- !private ["So8NSCodingP", "sceneView"]
+- ["So8NSCodingP", "session"]
+- ["So8NSCodingP", "sessionInterruptionEnded"]
+- ["So8NSCodingP", "sessionShouldAttemptRelocalization"]
+- ["So8NSCodingP", "sessionWasInterrupted"]
+- !private ["So8NSCodingP", "showsFPS"]
+- !private ["So8NSCodingP", "showsNodeCount"]
+- !private ["So8NSCodingP", "verticalAlignmentMode"]
+- ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- !private ["So8NSCodingP", "viewWillDisappear"]
+- !private ["So9NSCopyingP", "horizontalAlignmentMode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "verticalAlignmentMode"]
+- !private ["So26NSExtensionRequestHandlingP", "ARWorldTrackingConfiguration"]
+- !private ["So26NSExtensionRequestHandlingP", "SKLabelNode"]
+- !private ["So26NSExtensionRequestHandlingP", "SKScene"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "sceneView"]
+- ["So26NSExtensionRequestHandlingP", "session"]
+- ["So26NSExtensionRequestHandlingP", "sessionInterruptionEnded"]
+- ["So26NSExtensionRequestHandlingP", "sessionShouldAttemptRelocalization"]
+- ["So26NSExtensionRequestHandlingP", "sessionWasInterrupted"]
+- ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- ["So8NSObjectC", "ARAnchor"]
+- ["So8NSObjectC", "ARSKView"]
+- ["So8NSObjectC", "ARSession"]
+- !private ["So8NSObjectC", "ARWorldTrackingConfiguration"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "SKLabelNode"]
+- ["So8NSObjectC", "SKNode"]
+- !private ["So8NSObjectC", "SKScene"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "horizontalAlignmentMode"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "pause"]
+- !private ["So8NSObjectC", "presentScene"]
+- !private ["So8NSObjectC", "run"]
+- ["So8NSObjectC", "sceneView"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "sessionInterruptionEnded"]
+- ["So8NSObjectC", "sessionShouldAttemptRelocalization"]
+- ["So8NSObjectC", "sessionWasInterrupted"]
+- !private ["So8NSObjectC", "showsFPS"]
+- !private ["So8NSObjectC", "showsNodeCount"]
+- !private ["So8NSObjectC", "verticalAlignmentMode"]
+- ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- !private ["So16NSObjectProtocolP", "ARWorldTrackingConfiguration"]
+- !private ["So16NSObjectProtocolP", "SKLabelNode"]
+- !private ["So16NSObjectProtocolP", "SKScene"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "horizontalAlignmentMode"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "pause"]
+- !private ["So16NSObjectProtocolP", "presentScene"]
+- !private ["So16NSObjectProtocolP", "run"]
+- !private ["So16NSObjectProtocolP", "sceneView"]
+- ["So16NSObjectProtocolP", "session"]
+- ["So16NSObjectProtocolP", "sessionInterruptionEnded"]
+- ["So16NSObjectProtocolP", "sessionShouldAttemptRelocalization"]
+- ["So16NSObjectProtocolP", "sessionWasInterrupted"]
+- !private ["So16NSObjectProtocolP", "showsFPS"]
+- !private ["So16NSObjectProtocolP", "showsNodeCount"]
+- !private ["So16NSObjectProtocolP", "verticalAlignmentMode"]
+- ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "viewWillDisappear"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "center"]
+- !private ["So12SKEffectNodeC", "init"]
+- !private ["SC30SKLabelHorizontalAlignmentModeO", "center"]
+- !private ["So11SKLabelNodeC", "horizontalAlignmentMode"]
+- !private ["So11SKLabelNodeC", "init"]
+- !private ["So11SKLabelNodeC", "verticalAlignmentMode"]
+- !private ["SC28SKLabelVerticalAlignmentModeO", "center"]
+- !private ["So6SKNodeC", "horizontalAlignmentMode"]
+- !private ["So6SKNodeC", "init"]
+- !private ["So6SKNodeC", "verticalAlignmentMode"]
+- !private ["So7SKSceneC", "init"]
+- !private ["So6SKViewC", "delegate"]
+- !private ["So6SKViewC", "presentScene"]
+- !private ["So6SKViewC", "session"]
+- !private ["So6SKViewC", "showsFPS"]
+- !private ["So6SKViewC", "showsNodeCount"]
+- !private ["So14SKViewDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So14SKViewDelegateP", "SKLabelNode"]
+- !private ["So14SKViewDelegateP", "SKScene"]
+- ["So14SKViewDelegateP", ""]
+- !private ["So14SKViewDelegateP", "sceneView"]
+- ["So14SKViewDelegateP", "session"]
+- ["So14SKViewDelegateP", "sessionInterruptionEnded"]
+- ["So14SKViewDelegateP", "sessionShouldAttemptRelocalization"]
+- ["So14SKViewDelegateP", "sessionWasInterrupted"]
+- ["So14SKViewDelegateP", "view"]
+- !private ["So10SKWarpableP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "presentScene"]
+- !private ["So29UIAccessibilityIdentificationP", "session"]
+- !private ["So29UIAccessibilityIdentificationP", "showsFPS"]
+- !private ["So29UIAccessibilityIdentificationP", "showsNodeCount"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "presentScene"]
+- !private ["So12UIAppearanceP", "session"]
+- !private ["So12UIAppearanceP", "showsFPS"]
+- !private ["So12UIAppearanceP", "showsNodeCount"]
+- !private ["So21UIAppearanceContainerP", "ARWorldTrackingConfiguration"]
+- !private ["So21UIAppearanceContainerP", "SKLabelNode"]
+- !private ["So21UIAppearanceContainerP", "SKScene"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "presentScene"]
+- !private ["So21UIAppearanceContainerP", "sceneView"]
+- ["So21UIAppearanceContainerP", "session"]
+- ["So21UIAppearanceContainerP", "sessionInterruptionEnded"]
+- ["So21UIAppearanceContainerP", "sessionShouldAttemptRelocalization"]
+- ["So21UIAppearanceContainerP", "sessionWasInterrupted"]
+- !private ["So21UIAppearanceContainerP", "showsFPS"]
+- !private ["So21UIAppearanceContainerP", "showsNodeCount"]
+- ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- !private ["So18UIContentContainerP", "ARWorldTrackingConfiguration"]
+- !private ["So18UIContentContainerP", "SKLabelNode"]
+- !private ["So18UIContentContainerP", "SKScene"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "sceneView"]
+- ["So18UIContentContainerP", "session"]
+- ["So18UIContentContainerP", "sessionInterruptionEnded"]
+- ["So18UIContentContainerP", "sessionShouldAttemptRelocalization"]
+- ["So18UIContentContainerP", "sessionWasInterrupted"]
+- ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "presentScene"]
+- !private ["So17UICoordinateSpaceP", "session"]
+- !private ["So17UICoordinateSpaceP", "showsFPS"]
+- !private ["So17UICoordinateSpaceP", "showsNodeCount"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "presentScene"]
+- !private ["So13UIDynamicItemP", "session"]
+- !private ["So13UIDynamicItemP", "showsFPS"]
+- !private ["So13UIDynamicItemP", "showsNodeCount"]
+- !private ["So18UIFocusEnvironmentP", "ARWorldTrackingConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "SKLabelNode"]
+- !private ["So18UIFocusEnvironmentP", "SKScene"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "horizontalAlignmentMode"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "presentScene"]
+- !private ["So18UIFocusEnvironmentP", "sceneView"]
+- ["So18UIFocusEnvironmentP", "session"]
+- ["So18UIFocusEnvironmentP", "sessionInterruptionEnded"]
+- ["So18UIFocusEnvironmentP", "sessionShouldAttemptRelocalization"]
+- ["So18UIFocusEnvironmentP", "sessionWasInterrupted"]
+- !private ["So18UIFocusEnvironmentP", "showsFPS"]
+- !private ["So18UIFocusEnvironmentP", "showsNodeCount"]
+- !private ["So18UIFocusEnvironmentP", "verticalAlignmentMode"]
+- ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "horizontalAlignmentMode"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "presentScene"]
+- !private ["So11UIFocusItemP", "session"]
+- !private ["So11UIFocusItemP", "showsFPS"]
+- !private ["So11UIFocusItemP", "showsNodeCount"]
+- !private ["So11UIFocusItemP", "verticalAlignmentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "ARWorldTrackingConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "SKLabelNode"]
+- !private ["So30UIPasteConfigurationSupportingP", "SKScene"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "horizontalAlignmentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "sceneView"]
+- ["So30UIPasteConfigurationSupportingP", "session"]
+- ["So30UIPasteConfigurationSupportingP", "sessionInterruptionEnded"]
+- ["So30UIPasteConfigurationSupportingP", "sessionShouldAttemptRelocalization"]
+- ["So30UIPasteConfigurationSupportingP", "sessionWasInterrupted"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsFPS"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsNodeCount"]
+- !private ["So30UIPasteConfigurationSupportingP", "verticalAlignmentMode"]
+- ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- ["So11UIResponderC", "ARAnchor"]
+- ["So11UIResponderC", "ARSKView"]
+- ["So11UIResponderC", "ARSession"]
+- !private ["So11UIResponderC", "ARWorldTrackingConfiguration"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Error"]
+- !private ["So11UIResponderC", "SKLabelNode"]
+- ["So11UIResponderC", "SKNode"]
+- !private ["So11UIResponderC", "SKScene"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "horizontalAlignmentMode"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "presentScene"]
+- ["So11UIResponderC", "sceneView"]
+- ["So11UIResponderC", "session"]
+- ["So11UIResponderC", "sessionInterruptionEnded"]
+- ["So11UIResponderC", "sessionShouldAttemptRelocalization"]
+- ["So11UIResponderC", "sessionWasInterrupted"]
+- !private ["So11UIResponderC", "showsFPS"]
+- !private ["So11UIResponderC", "showsNodeCount"]
+- !private ["So11UIResponderC", "verticalAlignmentMode"]
+- ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- !private ["So30UIResponderStandardEditActionsP", "ARWorldTrackingConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "SKLabelNode"]
+- !private ["So30UIResponderStandardEditActionsP", "SKScene"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "horizontalAlignmentMode"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "presentScene"]
+- !private ["So30UIResponderStandardEditActionsP", "sceneView"]
+- ["So30UIResponderStandardEditActionsP", "session"]
+- ["So30UIResponderStandardEditActionsP", "sessionInterruptionEnded"]
+- ["So30UIResponderStandardEditActionsP", "sessionShouldAttemptRelocalization"]
+- ["So30UIResponderStandardEditActionsP", "sessionWasInterrupted"]
+- !private ["So30UIResponderStandardEditActionsP", "showsFPS"]
+- !private ["So30UIResponderStandardEditActionsP", "showsNodeCount"]
+- !private ["So30UIResponderStandardEditActionsP", "verticalAlignmentMode"]
+- ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- !private ["So16UIStateRestoringP", "ARWorldTrackingConfiguration"]
+- !private ["So16UIStateRestoringP", "SKLabelNode"]
+- !private ["So16UIStateRestoringP", "SKScene"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "sceneView"]
+- ["So16UIStateRestoringP", "session"]
+- ["So16UIStateRestoringP", "sessionInterruptionEnded"]
+- ["So16UIStateRestoringP", "sessionShouldAttemptRelocalization"]
+- ["So16UIStateRestoringP", "sessionWasInterrupted"]
+- ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So16UIStateRestoringP", "viewWillDisappear"]
+- !private ["So18UITraitEnvironmentP", "ARWorldTrackingConfiguration"]
+- !private ["So18UITraitEnvironmentP", "SKLabelNode"]
+- !private ["So18UITraitEnvironmentP", "SKScene"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "presentScene"]
+- !private ["So18UITraitEnvironmentP", "sceneView"]
+- ["So18UITraitEnvironmentP", "session"]
+- ["So18UITraitEnvironmentP", "sessionInterruptionEnded"]
+- ["So18UITraitEnvironmentP", "sessionShouldAttemptRelocalization"]
+- ["So18UITraitEnvironmentP", "sessionWasInterrupted"]
+- !private ["So18UITraitEnvironmentP", "showsFPS"]
+- !private ["So18UITraitEnvironmentP", "showsNodeCount"]
+- ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "presentScene"]
+- !private ["So6UIViewC", "session"]
+- !private ["So6UIViewC", "showsFPS"]
+- !private ["So6UIViewC", "showsNodeCount"]
+- ["So16UIViewControllerC", "ARAnchor"]
+- ["So16UIViewControllerC", "ARSKView"]
+- ["So16UIViewControllerC", "ARSession"]
+- !private ["So16UIViewControllerC", "ARWorldTrackingConfiguration"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "Error"]
+- !private ["So16UIViewControllerC", "SKLabelNode"]
+- ["So16UIViewControllerC", "SKNode"]
+- !private ["So16UIViewControllerC", "SKScene"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "sceneView"]
+- ["So16UIViewControllerC", "session"]
+- ["So16UIViewControllerC", "sessionInterruptionEnded"]
+- ["So16UIViewControllerC", "sessionShouldAttemptRelocalization"]
+- ["So16UIViewControllerC", "sessionWasInterrupted"]
+- ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- ["13SpriteKitTest14ViewControllerC", "ARAnchor"]
+- ["13SpriteKitTest14ViewControllerC", "ARSKView"]
+- ["13SpriteKitTest14ViewControllerC", "ARSession"]
+- !private ["13SpriteKitTest14ViewControllerC", "ARWorldTrackingConfiguration"]
+- ["13SpriteKitTest14ViewControllerC", "Bool"]
+- ["13SpriteKitTest14ViewControllerC", "Error"]
+- !private ["13SpriteKitTest14ViewControllerC", "SKLabelNode"]
+- ["13SpriteKitTest14ViewControllerC", "SKNode"]
+- !private ["13SpriteKitTest14ViewControllerC", "SKScene"]
+- ["13SpriteKitTest14ViewControllerC", "deinit"]
+- ["13SpriteKitTest14ViewControllerC", "didReceiveMemoryWarning"]
+- ["13SpriteKitTest14ViewControllerC", "init"]
+- ["13SpriteKitTest14ViewControllerC", "sceneView"]
+- ["13SpriteKitTest14ViewControllerC", "session"]
+- ["13SpriteKitTest14ViewControllerC", "sessionInterruptionEnded"]
+- ["13SpriteKitTest14ViewControllerC", "sessionShouldAttemptRelocalization"]
+- ["13SpriteKitTest14ViewControllerC", "sessionWasInterrupted"]
+- ["13SpriteKitTest14ViewControllerC", "view"]
+- ["13SpriteKitTest14ViewControllerC", "viewDidLoad"]
+- ["13SpriteKitTest14ViewControllerC", "viewWillAppear"]
+- ["13SpriteKitTest14ViewControllerC", "viewWillDisappear"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "presentScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "session"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsFPS"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsNodeCount"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ARWorldTrackingConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKLabelNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKScene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontalAlignmentMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pause"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "run"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sceneView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionInterruptionEnded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionShouldAttemptRelocalization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionWasInterrupted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsFPS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsNodeCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalAlignmentMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So15ARConfigurationC"
+- !private "So8ARSKViewC"
+- "So16ARSKViewDelegateP"
+- !private "So9ARSessionC"
+- "So17ARSessionObserverP"
+- !private "So28ARWorldTrackingConfigurationC"
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "So12SKEffectNodeC"
+- !private "SC30SKLabelHorizontalAlignmentModeO"
+- !private "So11SKLabelNodeC"
+- !private "SC28SKLabelVerticalAlignmentModeO"
+- !private "So6SKNodeC"
+- !private "So7SKSceneC"
+- !private "So6SKViewC"
+- "So14SKViewDelegateP"
+- !private "So10SKWarpableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "13SpriteKitTest14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "d3a9ac5c18d62dd63e482fc6a1c0aaa2"
