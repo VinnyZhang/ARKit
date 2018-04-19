@@ -42,13 +42,16 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         
         //Create a new scene
         let scene = SCNScene(named:"art.scnassets/ship.scn")!
-        scene.rootNode.childNodes.first?.position = SCNVector3Make(-1, -1, 0)
+//        let scene = SCNScene(named: "art.scnassets/untitled.scn")!
+        scene.rootNode.childNodes.first?.position = SCNVector3Make(-1, 0, 1)
         
         
 //      添加3D立方体
         let boxGeometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.0)
         let material = SCNMaterial()
-        material.diffuse.contents = scene
+        let img = UIImage(named: "gc.png")
+        material.diffuse.contents = img
+//        boxGeometry.materials
         material.lightingModel = .physicallyBased
         boxGeometry.materials = [material]
         
