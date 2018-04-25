@@ -53,9 +53,19 @@ class DetectionPlaneViewController: UIViewController , ARSCNViewDelegate {
      @param anchor 新添加的 anchor。
      @return 将会映射到 anchor 的 node 或 nil。
      */
-    //    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-    //        return nil
-    //    }
+        func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+            guard let anchor = anchor as? ARPlaneAnchor else {
+                return nil
+            }
+            
+            // 检测到新平面时创建 SceneKit 平面以实现 3D 视觉化
+            
+            let plane = Plane(withAnchor: anchor)
+            planes[anchor.identifier] = plane
+            
+            return plane
+            
+        }
     
     
     /**
@@ -66,15 +76,7 @@ class DetectionPlaneViewController: UIViewController , ARSCNViewDelegate {
      @param anchor 新添加的 anchor。
      */
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
-        guard let anchor = anchor as? ARPlaneAnchor else {
-            return
-        }
         
-        // 检测到新平面时创建 SceneKit 平面以实现 3D 视觉化
-        
-        let plane = Plane(withAnchor: anchor)
-        planes[anchor.identifier] = plane
-        node.addChildNode(plane)
         
     }
     
