@@ -14,6 +14,7 @@ import ARKit
 class DetectionPlaneViewController: UIViewController , ARSCNViewDelegate {
     
     var sceneView = ARSCNView()
+    var configuration: ARConfiguration?
     
     var planes = [UUID:Plane]() // 字典，存储场景中当前渲染的所有平面
     
@@ -93,7 +94,13 @@ class DetectionPlaneViewController: UIViewController , ARSCNViewDelegate {
         guard let plane = planes[anchor.identifier] else {
             return
         }
-        
+//        guard let anchor = anchor as? ARPlaneAnchor else {
+//            return
+//        }
+//        guard let node = node as? Plane else {
+//            return
+//        }
+
         // anchor 更新后也需要更新 3D 几何体。例如平面检测的高度和宽度可能会改变，所以需要更新 SceneKit 几何体以匹配
         plane.update(anchor: anchor as! ARPlaneAnchor)
     }
@@ -118,6 +125,7 @@ class DetectionPlaneViewController: UIViewController , ARSCNViewDelegate {
      @param anchor 被更新的 anchor。
      */
     func renderer(_ renderer: SCNSceneRenderer, willUpdate node: SCNNode, for anchor: ARAnchor) {
+        
     }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
@@ -135,6 +143,10 @@ class DetectionPlaneViewController: UIViewController , ARSCNViewDelegate {
         
     }
     
+    func session(_ session: ARSession, cameraDidChangeTrackingState camera: ARCamera) {
+        
+    }
+    
     
     //MARK: - internal methodds
     
@@ -142,31 +154,34 @@ class DetectionPlaneViewController: UIViewController , ARSCNViewDelegate {
         
         sceneView.frame = self.view.frame
         self.view.addSubview(sceneView)
-        // 设置 ARSCNViewDelegate——此协议会提供回调来处理新创建的几何体
-        sceneView.delegate = self
         // 显示统计数据（statistics）如 fps 和 时长信息
-        sceneView.showsStatistics = true
+        sceneView.showsStatistics = false
         sceneView.autoenablesDefaultLighting = true
         
         // 开启 debug 选项以查看世界原点并渲染所有 ARKit 正在追踪的特征点
-        sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin,ARSCNDebugOptions.showFeaturePoints]
+        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
         
-        let scene = SCNScene()
-        sceneView.scene = scene
+        // 设置 ARSCNViewDelegate——此协议会提供回调来处理新创建的几何体
+        sceneView.delegate = self
+        
     }
     
-    func setupSession ()
+    func setupSession()
     {
-        // 创建 session 配置（configuration）实例
-        let configuration = ARWorldTrackingConfiguration()
-        
-        // 明确表示需要追踪水平面。设置后 scene 被检测到时就会调用 ARSCNViewDelegate 方法
-        configuration.planeDetection = .horizontal
-        
+        if ARWorldTrackingConfiguration.isSupported {
+            let worldTracking = ARWorldTrackingConfiguration()
+            worldTracking.planeDetection = .horizontal
+            worldTracking.isLightEstimationEnabled = true
+            self.configuration = worldTracking
+        }
+        else{
+            let orientationTracking = AROrientationTrackingConfiguration()
+            self.configuration = orientationTracking
+        }
+    
         // 运行 view 的 session
-        sceneView.session.run(configuration)
+        sceneView.session.run(self.configuration!)
         
-//        sceneView.session.run(configuration, options: )
         
     }
     

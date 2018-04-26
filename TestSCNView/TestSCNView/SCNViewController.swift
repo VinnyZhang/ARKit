@@ -23,13 +23,6 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         super.viewDidLoad()
         
         sceneView.frame = self.view.frame
-
-        
-        let point = CGPoint(x:0,y:100)
-        let size = CGSize(width:320,height:300)
-
-        let rect = CGRect(origin:point, size: size)
-        sceneView.frame = rect
         
         self.view.addSubview(sceneView)
         
@@ -43,7 +36,7 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         //Create a new scene
 //        let scene = SCNScene(named:"art.scnassets/zhuozi2.scn")!
         let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        scene.rootNode.childNodes.first?.position = SCNVector3Make(3, 0, -20)
+        scene.rootNode.childNodes.first?.position = SCNVector3Make(1, 0, -1)
         
         
 //      添加3D立方体
@@ -55,12 +48,8 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         material.lightingModel = .physicallyBased
         boxGeometry.materials = [material]
         
-        
         let boxNode = SCNNode(geometry: boxGeometry)
-        
-        boxNode.position = SCNVector3Make(-1, 0, -0.5)
-
-        
+        boxNode.position = SCNVector3Make(-0.5, 0, -0.5)
         scene.rootNode.addChildNode(boxNode)
         
         sceneView.autoenablesDefaultLighting = true
@@ -91,6 +80,7 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         sceneView.session.pause()
+        
     }
     
     

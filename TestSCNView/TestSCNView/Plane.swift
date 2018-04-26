@@ -14,6 +14,10 @@ class Plane: SCNNode {
     var anchor: ARPlaneAnchor!
     var planeGeometry: SCNPlane!
     
+
+    /// 初始化
+    ///
+    /// - Parameter anchor: 平面锚点的向量
     init(withAnchor anchor: ARPlaneAnchor) {
         super.init()
         self.anchor = anchor
@@ -22,13 +26,13 @@ class Plane: SCNNode {
         let material = SCNMaterial()
         let img = UIImage(named: "vertical.png")
         material.diffuse.contents = img
-        material.lightingModel = .physicallyBased
+//        material.lightingModel = .physicallyBased
         planeGeometry.materials = [material]
         
         let planeNode = SCNNode(geometry: planeGeometry)
         planeNode.position = SCNVector3Make(anchor.center.x, 0, anchor.center.z)
         
-        // SceneKit 里的平面默认是垂直的，所以需要旋转90度来匹配 ARKit 中的平面
+        // SceneKit 里的平面默认是垂直的，所以需要绕X轴旋转90度来匹配 ARKit 中的平面
         planeNode.transform = SCNMatrix4MakeRotation(Float(-.pi / 2.0), 1.0, 0.0, 0.0)
         
         setTextureScale()
@@ -41,6 +45,8 @@ class Plane: SCNNode {
         fatalError("init(coder:) has not been implemented")
     }
     
+    /// 更新位置
+    ///
     func update(anchor: ARPlaneAnchor) {
         // 随着用户移动，平面 plane 的 范围 extend 和 位置 location 可能会更新。
         // 需要更新 3D 几何体来匹配 plane 的新参数。
@@ -50,11 +56,12 @@ class Plane: SCNNode {
         // plane 刚创建时中心点 center 为 0,0,0，node transform 包含了变换参数。
         // plane 更新后变换没变 但 center 更新了，所以需要更新 3D 几何体的位置
         
-        position = SCNVector3Make(anchor.center.x, 0, anchor.center.z)
+        position = SCNVector3Make(anchor.center.x, self.position.y, anchor.center.z)
         setTextureScale()
         
     }
     
+    /// 设置纹理的规模
     func setTextureScale(){
         let width = planeGeometry.width
         let height = planeGeometry.height
