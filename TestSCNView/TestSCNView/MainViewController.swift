@@ -51,5 +51,10 @@ class MainViewController: UIViewController {
         let boxController = SCNBoxViewController()
         self.navigationController?.pushViewController(boxController, animated: true)
     }
+    
+    @IBAction func gotoCompass (_ sender: Any) {
+        let compassController = CompassViewController()
+        self.navigationController?.pushViewController(compassController, animated: true)
+    }
 
 }

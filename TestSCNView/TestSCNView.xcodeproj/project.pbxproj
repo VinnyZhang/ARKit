@@ -17,6 +17,10 @@
 		5F2A4127207C96DE0014B3B7 /* jingjing.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A4126207C96DE0014B3B7 /* jingjing.JPG */; };
 		5F2A412B207CB5830014B3B7 /* DetectionPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A412A207CB5830014B3B7 /* DetectionPlaneViewController.swift */; };
 		5F45CE4E2088642000811CBC /* gc.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F45CE4D2088641F00811CBC /* gc.png */; };
+		5F55B25B2092F7BC0009BE0A /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F55B2582092F7BB0009BE0A /* compass@2x.png */; };
+		5F55B25C2092F7BC0009BE0A /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F55B2592092F7BB0009BE0A /* compass.png */; };
+		5F55B25D2092F7BC0009BE0A /* compass@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F55B25A2092F7BC0009BE0A /* compass@3x.png */; };
+		5F55B25F2092F7DA0009BE0A /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F55B25E2092F7DA0009BE0A /* CompassViewController.swift */; };
 		5F5A00DF208043CD00D09B5E /* SCNBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A00DE208043CD00D09B5E /* SCNBoxViewController.swift */; };
 		5F9D2CC12079A6BC00A5B813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2CC02079A6BC00A5B813 /* AppDelegate.swift */; };
 		5F9D2CC32079A6BC00A5B813 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D2CC22079A6BC00A5B813 /* art.scnassets */; };
@@ -59,6 +63,10 @@
 		5F2A4126207C96DE0014B3B7 /* jingjing.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jingjing.JPG; sourceTree = "<group>"; };
 		5F2A412A207CB5830014B3B7 /* DetectionPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionPlaneViewController.swift; sourceTree = "<group>"; };
 		5F45CE4D2088641F00811CBC /* gc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gc.png; sourceTree = "<group>"; };
+		5F55B2582092F7BB0009BE0A /* compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compass@2x.png"; sourceTree = "<group>"; };
+		5F55B2592092F7BB0009BE0A /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		5F55B25A2092F7BC0009BE0A /* compass@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compass@3x.png"; sourceTree = "<group>"; };
+		5F55B25E2092F7DA0009BE0A /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
 		5F5A00DE208043CD00D09B5E /* SCNBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNBoxViewController.swift; sourceTree = "<group>"; };
 		5F9D2CBD2079A6BC00A5B813 /* TestSCNView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSCNView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D2CC02079A6BC00A5B813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +144,9 @@
 				5F2A411D207C71AF0014B3B7 /* timg2kuang.jpg */,
 				5F2A411C207C71AE0014B3B7 /* timg3Kuang.jpg */,
 				5F2A411F207C71AF0014B3B7 /* timgKuang.jpg */,
+				5F55B2592092F7BB0009BE0A /* compass.png */,
+				5F55B2582092F7BB0009BE0A /* compass@2x.png */,
+				5F55B25A2092F7BC0009BE0A /* compass@3x.png */,
 				5F9D2CC22079A6BC00A5B813 /* art.scnassets */,
 				5F9D2CC62079A6BC00A5B813 /* Main.storyboard */,
 				5F9D2CC92079A6BE00A5B813 /* Assets.xcassets */,
@@ -148,6 +159,7 @@
 				5FFE05FB207EF9F0004E7D0D /* Plane.swift */,
 				5FFE0603207F5E0B004E7D0D /* PlaneBox.swift */,
 				5F5A00DE208043CD00D09B5E /* SCNBoxViewController.swift */,
+				5F55B25E2092F7DA0009BE0A /* CompassViewController.swift */,
 			);
 			path = TestSCNView;
 			sourceTree = "<group>";
@@ -278,9 +290,12 @@
 				5F9D2CCD2079A6BE00A5B813 /* LaunchScreen.storyboard in Resources */,
 				5F2A4120207C71AF0014B3B7 /* timg3Kuang.jpg in Resources */,
 				5F2A4127207C96DE0014B3B7 /* jingjing.JPG in Resources */,
+				5F55B25C2092F7BC0009BE0A /* compass.png in Resources */,
+				5F55B25B2092F7BC0009BE0A /* compass@2x.png in Resources */,
 				5F45CE4E2088642000811CBC /* gc.png in Resources */,
 				5F2A4123207C71AF0014B3B7 /* timgKuang.jpg in Resources */,
 				5F9D2CCA2079A6BE00A5B813 /* Assets.xcassets in Resources */,
+				5F55B25D2092F7BC0009BE0A /* compass@3x.png in Resources */,
 				5FFE0600207F1199004E7D0D /* vertical.png in Resources */,
 				5F2A4121207C71AF0014B3B7 /* timg2kuang.jpg in Resources */,
 				5FFE05FF207F1199004E7D0D /* horizontal.jpg in Resources */,
@@ -310,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F55B25F2092F7DA0009BE0A /* CompassViewController.swift in Sources */,
 				5F2A4125207C74750014B3B7 /* ArtTreeViewController.swift in Sources */,
 				5F5A00DF208043CD00D09B5E /* SCNBoxViewController.swift in Sources */,
 				5F2A4119207B67130014B3B7 /* MainViewController.swift in Sources */,

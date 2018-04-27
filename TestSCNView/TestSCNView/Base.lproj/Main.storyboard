@@ -77,6 +77,14 @@
                                     <action selector="gotoPlaneBox:" destination="5rG-KY-XPL" eventType="touchUpInside" id="hyi-ec-igD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKF-TL-CBJ">
+                                <rect key="frame" x="50" y="351" width="265" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="指南针"/>
+                                <connections>
+                                    <action selector="gotoCompass:" destination="5rG-KY-XPL" eventType="touchUpInside" id="fYA-hD-TOu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>

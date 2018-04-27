@@ -66,6 +66,7 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         var configuration : ARConfiguration!
         if ARWorldTrackingConfiguration.isSupported {
             configuration = ARWorldTrackingConfiguration()//6DOF【3个旋转轴 3个平移轴】
+//            configuration.worldAlignment = .gravity
             
         }
         else {
