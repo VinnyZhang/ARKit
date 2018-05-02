@@ -15,6 +15,8 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
 
      var sceneView = ARSCNView()
     
+    var changeSkin = UIButton()
+    
     
     
     //MARK: - life cycle
@@ -32,11 +34,20 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         //Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
+        changeSkin.frame = CGRect(x: 20, y: self.view.frame.size.height - 100, width: self.view.frame.size.width - 40, height: 50)
+        self.view.addSubview(changeSkin)
+        changeSkin.setTitle("换肤", for: .normal)
+        changeSkin.setTitleColor(UIColor.blue, for: .normal)
+        changeSkin.addTarget(self, action: #selector(changeSkin(_:)), for: .touchUpInside)
+        
         
         //Create a new scene
-//        let scene = SCNScene(named:"art.scnassets/zhuozi2.scn")!
+//        let scene = SCNScene(named:"art.scnassets/zhuozi.scn")!
+//        let scene = SCNScene(named: "art.scnassets/lala.scn")!
         let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        scene.rootNode.childNodes.first?.position = SCNVector3Make(1, 0, -1)
+        
+//        scene.rootNode.childNodes.first?.position = SCNVector3Make(0, 0, -20)
+
         
         
 //      添加3D立方体
@@ -49,6 +60,9 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         boxGeometry.materials = [material]
         
         let boxNode = SCNNode(geometry: boxGeometry)
+        
+        
+        
         boxNode.position = SCNVector3Make(-0.5, 0, -0.5)
         scene.rootNode.addChildNode(boxNode)
         
@@ -113,6 +127,19 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
     
     func sessionInterruptionEnded(_ session: ARSession) {
         print("Reset tracking and/or remove existing anchors if consistent tracking is required")
+    }
+    
+    
+    
+    @objc func changeSkin(_ sender: Any){
+        
+        let material2 = SCNMaterial()
+        let imager = UIImage(named: "gc.png")
+        material2.diffuse.contents = imager
+        
+        let shipNode = self.sceneView.scene.rootNode.childNodes.first?.childNodes.first
+        shipNode?.geometry?.materials = [material2]
+        
     }
     
 

@@ -46,12 +46,9 @@ class CompassViewController: UIViewController {
         
         sceneView.frame = self.view.frame
         self.view.addSubview(sceneView)
-        // 显示统计数据（statistics）如 fps 和 时长信息
-//        sceneView.showsStatistics = false
         sceneView.autoenablesDefaultLighting = true
-        
         // 开启 debug 选项以查看世界原点并渲染所有 ARKit 正在追踪的特征点
-//        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
+        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
         
         // 设置 ARSCNViewDelegate——此协议会提供回调来处理新创建的几何体
         sceneView.delegate = self
@@ -124,10 +121,10 @@ extension CompassViewController: ARSCNViewDelegate {
      @param anchor 新添加的 anchor。
      @return 将会映射到 anchor 的 node 或 nil。
      */
-//    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-//
-//
-//    }
+    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+        
+        return nil
+    }
     
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
         if self.sceneView.session.currentFrame != nil {

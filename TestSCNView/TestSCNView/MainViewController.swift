@@ -18,6 +18,19 @@ class MainViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+//        let alertView = UIAlertController(title: "提示", message: "请站在原地对准地面，我们将为您加载导航", preferredStyle: .alert)
+//        let cancelAction = UIAlertAction(title: "取消", style: .cancel) { (cancelAction) in
+//            
+//        }
+//        alertView.addAction(cancelAction)
+////        alertView.show(self, sender: nil)
+//        self.present(alertView, animated: true) {
+//            
+//        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
