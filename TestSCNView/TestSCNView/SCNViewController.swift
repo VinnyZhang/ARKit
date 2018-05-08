@@ -42,9 +42,9 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         
         
         //Create a new scene
-//        let scene = SCNScene(named:"art.scnassets/zhuozi.scn")!
+        let scene = SCNScene(named:"art.scnassets/test11.scn")!
 //        let scene = SCNScene(named: "art.scnassets/lala.scn")!
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+//        let scene = SCNScene(named: "art.scnassets/ship.scn")!
         
 //        scene.rootNode.childNodes.first?.position = SCNVector3Make(0, 0, -20)
 

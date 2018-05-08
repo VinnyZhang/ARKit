@@ -78,11 +78,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKF-TL-CBJ">
-                                <rect key="frame" x="50" y="351" width="265" height="73"/>
+                                <rect key="frame" x="55" y="312" width="265" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="指南针"/>
                                 <connections>
                                     <action selector="gotoCompass:" destination="5rG-KY-XPL" eventType="touchUpInside" id="fYA-hD-TOu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUf-Px-cqE">
+                                <rect key="frame" x="62" y="371" width="265" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="图片识别"/>
+                                <connections>
+                                    <action selector="gotoImageDistinguish:" destination="5rG-KY-XPL" eventType="touchUpInside" id="Bun-Nm-wkV"/>
                                 </connections>
                             </button>
                         </subviews>

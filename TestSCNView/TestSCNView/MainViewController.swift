@@ -69,5 +69,11 @@ class MainViewController: UIViewController {
         let compassController = CompassViewController()
         self.navigationController?.pushViewController(compassController, animated: true)
     }
+    
+    @IBAction func gotoImageDistinguish (_ sender: Any) {
+        let imageDistinguish = ImageDistinguishViewController()
+        self.navigationController?.pushViewController(imageDistinguish, animated: true)
+    }
+    
 
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0E5AA020A12AD400897935 /* honbao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F0E5A9F20A12AD400897935 /* honbao.png */; };
 		5F2A4119207B67130014B3B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A4118207B67130014B3B7 /* MainViewController.swift */; };
 		5F2A411B207C62130014B3B7 /* SCNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A411A207C62130014B3B7 /* SCNViewController.swift */; };
 		5F2A4120207C71AF0014B3B7 /* timg3Kuang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A411C207C71AE0014B3B7 /* timg3Kuang.jpg */; };
@@ -29,6 +30,8 @@
 		5F9D2CCD2079A6BE00A5B813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D2CCB2079A6BE00A5B813 /* LaunchScreen.storyboard */; };
 		5F9D2CD82079A6BE00A5B813 /* TestSCNViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2CD72079A6BE00A5B813 /* TestSCNViewTests.swift */; };
 		5F9D2CE32079A6BE00A5B813 /* TestSCNViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2CE22079A6BE00A5B813 /* TestSCNViewUITests.swift */; };
+		5FA7194420A04BA3005C9D6A /* ImageDistinguishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7194320A04BA3005C9D6A /* ImageDistinguishViewController.swift */; };
+		5FA7194820A04C30005C9D6A /* ARSCNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7194720A04C30005C9D6A /* ARSCNBaseViewController.swift */; };
 		5FFE05FC207EF9F0004E7D0D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE05FB207EF9F0004E7D0D /* Plane.swift */; };
 		5FFE05FF207F1199004E7D0D /* horizontal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE05FD207F1198004E7D0D /* horizontal.jpg */; };
 		5FFE0600207F1199004E7D0D /* vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE05FE207F1198004E7D0D /* vertical.png */; };
@@ -53,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F0E5A9F20A12AD400897935 /* honbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honbao.png; sourceTree = "<group>"; };
 		5F2A4118207B67130014B3B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5F2A411A207C62130014B3B7 /* SCNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNViewController.swift; sourceTree = "<group>"; };
 		5F2A411C207C71AE0014B3B7 /* timg3Kuang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg3Kuang.jpg; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		5F9D2CDE2079A6BE00A5B813 /* TestSCNViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSCNViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D2CE22079A6BE00A5B813 /* TestSCNViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSCNViewUITests.swift; sourceTree = "<group>"; };
 		5F9D2CE42079A6BE00A5B813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA7194320A04BA3005C9D6A /* ImageDistinguishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDistinguishViewController.swift; sourceTree = "<group>"; };
+		5FA7194720A04C30005C9D6A /* ARSCNBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSCNBaseViewController.swift; sourceTree = "<group>"; };
 		5FFE05FB207EF9F0004E7D0D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		5FFE05FD207F1198004E7D0D /* horizontal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horizontal.jpg; sourceTree = "<group>"; };
 		5FFE05FE207F1198004E7D0D /* vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical.png; sourceTree = "<group>"; };
@@ -135,6 +141,7 @@
 		5F9D2CBF2079A6BC00A5B813 /* TestSCNView */ = {
 			isa = PBXGroup;
 			children = (
+				5FA7194720A04C30005C9D6A /* ARSCNBaseViewController.swift */,
 				5FFE05FD207F1198004E7D0D /* horizontal.jpg */,
 				5FFE05FE207F1198004E7D0D /* vertical.png */,
 				5F2A4126207C96DE0014B3B7 /* jingjing.JPG */,
@@ -147,6 +154,7 @@
 				5F55B2592092F7BB0009BE0A /* compass.png */,
 				5F55B2582092F7BB0009BE0A /* compass@2x.png */,
 				5F55B25A2092F7BC0009BE0A /* compass@3x.png */,
+				5F0E5A9F20A12AD400897935 /* honbao.png */,
 				5F9D2CC22079A6BC00A5B813 /* art.scnassets */,
 				5F9D2CC62079A6BC00A5B813 /* Main.storyboard */,
 				5F9D2CC92079A6BE00A5B813 /* Assets.xcassets */,
@@ -160,6 +168,7 @@
 				5FFE0603207F5E0B004E7D0D /* PlaneBox.swift */,
 				5F5A00DE208043CD00D09B5E /* SCNBoxViewController.swift */,
 				5F55B25E2092F7DA0009BE0A /* CompassViewController.swift */,
+				5FA7194320A04BA3005C9D6A /* ImageDistinguishViewController.swift */,
 			);
 			path = TestSCNView;
 			sourceTree = "<group>";
@@ -290,6 +299,7 @@
 				5F9D2CCD2079A6BE00A5B813 /* LaunchScreen.storyboard in Resources */,
 				5F2A4120207C71AF0014B3B7 /* timg3Kuang.jpg in Resources */,
 				5F2A4127207C96DE0014B3B7 /* jingjing.JPG in Resources */,
+				5F0E5AA020A12AD400897935 /* honbao.png in Resources */,
 				5F55B25C2092F7BC0009BE0A /* compass.png in Resources */,
 				5F55B25B2092F7BC0009BE0A /* compass@2x.png in Resources */,
 				5F45CE4E2088642000811CBC /* gc.png in Resources */,
@@ -326,11 +336,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F55B25F2092F7DA0009BE0A /* CompassViewController.swift in Sources */,
+				5FA7194820A04C30005C9D6A /* ARSCNBaseViewController.swift in Sources */,
 				5F2A4125207C74750014B3B7 /* ArtTreeViewController.swift in Sources */,
 				5F5A00DF208043CD00D09B5E /* SCNBoxViewController.swift in Sources */,
 				5F2A4119207B67130014B3B7 /* MainViewController.swift in Sources */,
 				5F2A412B207CB5830014B3B7 /* DetectionPlaneViewController.swift in Sources */,
 				5F2A411B207C62130014B3B7 /* SCNViewController.swift in Sources */,
+				5FA7194420A04BA3005C9D6A /* ImageDistinguishViewController.swift in Sources */,
 				5FFE05FC207EF9F0004E7D0D /* Plane.swift in Sources */,
 				5FFE0604207F5E0B004E7D0D /* PlaneBox.swift in Sources */,
 				5F9D2CC12079A6BC00A5B813 /* AppDelegate.swift in Sources */,
