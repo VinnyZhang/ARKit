@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5F0E5AA020A12AD400897935 /* honbao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F0E5A9F20A12AD400897935 /* honbao.png */; };
+		5F0E5AA220A183E700897935 /* test-uv-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F0E5AA120A183E700897935 /* test-uv-02.png */; };
+		5F0E5AA420A1921B00897935 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F0E5AA320A1921B00897935 /* 02.png */; };
 		5F2A4119207B67130014B3B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A4118207B67130014B3B7 /* MainViewController.swift */; };
 		5F2A411B207C62130014B3B7 /* SCNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A411A207C62130014B3B7 /* SCNViewController.swift */; };
 		5F2A4120207C71AF0014B3B7 /* timg3Kuang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A411C207C71AE0014B3B7 /* timg3Kuang.jpg */; };
@@ -57,6 +59,8 @@
 
 /* Begin PBXFileReference section */
 		5F0E5A9F20A12AD400897935 /* honbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honbao.png; sourceTree = "<group>"; };
+		5F0E5AA120A183E700897935 /* test-uv-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-uv-02.png"; sourceTree = "<group>"; };
+		5F0E5AA320A1921B00897935 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		5F2A4118207B67130014B3B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5F2A411A207C62130014B3B7 /* SCNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNViewController.swift; sourceTree = "<group>"; };
 		5F2A411C207C71AE0014B3B7 /* timg3Kuang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg3Kuang.jpg; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				5F2A411C207C71AE0014B3B7 /* timg3Kuang.jpg */,
 				5F2A411F207C71AF0014B3B7 /* timgKuang.jpg */,
 				5F55B2592092F7BB0009BE0A /* compass.png */,
+				5F0E5AA120A183E700897935 /* test-uv-02.png */,
+				5F0E5AA320A1921B00897935 /* 02.png */,
 				5F55B2582092F7BB0009BE0A /* compass@2x.png */,
 				5F55B25A2092F7BC0009BE0A /* compass@3x.png */,
 				5F0E5A9F20A12AD400897935 /* honbao.png */,
@@ -311,6 +317,8 @@
 				5FFE05FF207F1199004E7D0D /* horizontal.jpg in Resources */,
 				5F2A4122207C71AF0014B3B7 /* sun-halo.png in Resources */,
 				5F9D2CC82079A6BC00A5B813 /* Main.storyboard in Resources */,
+				5F0E5AA220A183E700897935 /* test-uv-02.png in Resources */,
+				5F0E5AA420A1921B00897935 /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FS.SFa.fs.TestSCNView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -548,7 +556,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FS.SFa.fs.TestSCNView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

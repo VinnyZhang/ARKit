@@ -42,8 +42,8 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         
         
         //Create a new scene
-        let scene = SCNScene(named:"art.scnassets/test11.scn")!
-//        let scene = SCNScene(named: "art.scnassets/lala.scn")!
+//        let scene = SCNScene(named:"art.scnassets/test11.scn")!
+        let scene = SCNScene(named: "art.scnassets/untitled.dae")!
 //        let scene = SCNScene(named: "art.scnassets/ship.scn")!
         
 //        scene.rootNode.childNodes.first?.position = SCNVector3Make(0, 0, -20)
@@ -51,20 +51,20 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         
         
 //      添加3D立方体
-        let boxGeometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.0)
-        let material = SCNMaterial()
-        let img = UIImage(named: "gc.png")
-        material.diffuse.contents = img
-//        boxGeometry.materials
-        material.lightingModel = .physicallyBased
-        boxGeometry.materials = [material]
-        
-        let boxNode = SCNNode(geometry: boxGeometry)
-        
-        
-        
-        boxNode.position = SCNVector3Make(-0.5, 0, -0.5)
-        scene.rootNode.addChildNode(boxNode)
+//        let boxGeometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.0)
+//        let material = SCNMaterial()
+//        let img = UIImage(named: "gc.png")
+//        material.diffuse.contents = img
+////        boxGeometry.materials
+//        material.lightingModel = .physicallyBased
+//        boxGeometry.materials = [material]
+//        
+//        let boxNode = SCNNode(geometry: boxGeometry)
+//        
+//        
+//        
+//        boxNode.position = SCNVector3Make(-0.5, 0, -0.5)
+//        scene.rootNode.addChildNode(boxNode)
         
         sceneView.autoenablesDefaultLighting = true
         
