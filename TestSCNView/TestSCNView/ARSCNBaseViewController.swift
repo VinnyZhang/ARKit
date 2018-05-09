@@ -50,7 +50,7 @@ class ARSCNBaseViewController: UIViewController {
         
         gameView = ARSCNView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
         gameView.delegate = self
-        gameView.debugOptions = ARSCNDebugOptions.showFeaturePoints
+        gameView.debugOptions = [ARSCNDebugOptions.showFeaturePoints,ARSCNDebugOptions.showWorldOrigin]
         self.view.addSubview(gameView)
         
         maskView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))

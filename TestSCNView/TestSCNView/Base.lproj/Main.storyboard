@@ -93,6 +93,14 @@
                                     <action selector="gotoImageDistinguish:" destination="5rG-KY-XPL" eventType="touchUpInside" id="Bun-Nm-wkV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIJ-F9-gIs">
+                                <rect key="frame" x="55" y="424" width="265" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="改变世界原点"/>
+                                <connections>
+                                    <action selector="gotoChangeWorldOrign:" destination="5rG-KY-XPL" eventType="touchUpInside" id="5hO-F5-I07"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>

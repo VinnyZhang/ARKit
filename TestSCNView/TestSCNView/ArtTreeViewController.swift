@@ -38,7 +38,7 @@ class ArtTreeViewController: UIViewController,ARSCNViewDelegate {
         self.view.addSubview(arSCNView)
         arSCNView.delegate = self
         
-        self.initNode()
+        
 //        self.addLight()
         for i in 0..<6 {
             self.addBtns(index: i)
@@ -49,7 +49,9 @@ class ArtTreeViewController: UIViewController,ARSCNViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         arConfiguration.isLightEstimationEnabled = true //自适应灯光 （室内到室外的话画面会比较柔和）
+        arConfiguration.planeDetection = .horizontal
         arSession.run(arConfiguration, options: [.removeExistingAnchors,.resetTracking])
+        self.initNode()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -89,7 +91,7 @@ class ArtTreeViewController: UIViewController,ARSCNViewDelegate {
         artPicNode.geometry?.firstMaterial?.diffuse.contents = imageA[self.arIndex]
         artPicNode.geometry?.firstMaterial?.multiply.intensity = 0.5//强度
         artPicNode.geometry?.firstMaterial?.lightingModel = SCNMaterial.LightingModel.constant
-        artPicNode.position = SCNVector3(0,0,-25)
+        artPicNode.position = SCNVector3(0,0,-20)
         arSCNView.scene.rootNode.addChildNode(artPicNode)
     }
     
@@ -193,6 +195,37 @@ class ArtTreeViewController: UIViewController,ARSCNViewDelegate {
         }
         artPicNode.position = vector
         
+    }
+    
+    
+    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+        guard let anchor = anchor as? ARPlaneAnchor else {
+            return nil
+        }
+        
+        artPicNode.position = SCNVector3Make(0.0, 0.0, -20.0)
+        
+        
+        let geometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.0)
+        let material = SCNMaterial()
+        material.diffuse.contents = UIColor.red
+        let material1 = SCNMaterial()
+        material1.diffuse.contents = UIColor.gray
+        let material2 = SCNMaterial()
+        material2.diffuse.contents = UIColor.blue
+        let material3 = SCNMaterial()
+        material3.diffuse.contents = UIColor.yellow
+        let material4 = SCNMaterial()
+        material4.diffuse.contents = UIColor.brown
+        let material5 = SCNMaterial()
+        material5.diffuse.contents = UIColor.black
+        geometry.materials = [material,material1,material2,material3,material4,material5]
+        
+        let node = SCNNode(geometry: geometry)
+        node.position = SCNVector3Make(0.0, 0.0, -5.0)
+        arSCNView.scene.rootNode.addChildNode(node)
+        
+        return nil
     }
 
 }

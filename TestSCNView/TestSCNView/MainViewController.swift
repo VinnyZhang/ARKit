@@ -75,5 +75,10 @@ class MainViewController: UIViewController {
         self.navigationController?.pushViewController(imageDistinguish, animated: true)
     }
     
+    @IBAction func gotoChangeWorldOrign (_ sender: Any) {
+        let changeWorldOrign = ChangeWorldOriginViewController()
+        self.navigationController?.pushViewController(changeWorldOrign, animated: true)
+    }
+    
 
 }

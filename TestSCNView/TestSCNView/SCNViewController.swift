@@ -43,10 +43,10 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
         
         //Create a new scene
 //        let scene = SCNScene(named:"art.scnassets/test11.scn")!
-        let scene = SCNScene(named: "art.scnassets/untitled.dae")!
+        let scene = SCNScene(named: "art.scnassets/flight.scn")!
 //        let scene = SCNScene(named: "art.scnassets/ship.scn")!
         
-//        scene.rootNode.childNodes.first?.position = SCNVector3Make(0, 0, -20)
+//        scene.rootNode.childNodes.last?.position = SCNVector3Make(0, 0, -20)
 
         
         
@@ -58,15 +58,15 @@ class SCNViewController: UIViewController,ARSCNViewDelegate {
 ////        boxGeometry.materials
 //        material.lightingModel = .physicallyBased
 //        boxGeometry.materials = [material]
-//        
+//
 //        let boxNode = SCNNode(geometry: boxGeometry)
-//        
-//        
-//        
+//
+//
+//
 //        boxNode.position = SCNVector3Make(-0.5, 0, -0.5)
-//        scene.rootNode.addChildNode(boxNode)
-        
-        sceneView.autoenablesDefaultLighting = true
+//        sceneView.scene.rootNode.addChildNode(boxNode)
+//
+//        sceneView.autoenablesDefaultLighting = true
         
         //Set the scene to the view
         sceneView.scene = scene
